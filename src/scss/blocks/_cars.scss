@@ -1,0 +1,16 @@
+.cars {
+  &__slider {
+    // display: grid;
+    // row-gap: 48px;
+
+		transform: translateY(-30px);
+		opacity: 0;
+
+		transition: all 0.5s ease-in;
+
+		&.active {
+			transform: translateY(0);
+			opacity: 1;
+		}
+  }
+}

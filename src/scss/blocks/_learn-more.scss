@@ -1,0 +1,19 @@
+.learn-more {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  transition: opacity 0.2s ease-in;
+
+  &::after {
+    content: url('../../img/svgicons-no-sprite/arrow-right-large-black.svg');
+		// height: 25px;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

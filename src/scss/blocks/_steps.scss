@@ -1,0 +1,114 @@
+.steps {
+  background-image: url('../../img/steps/steps-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  
+	@include mediaBg() {
+		background-image: url('../../img/steps/steps-bg@2x.jpg');
+	}
+
+  &__header-block {
+  }
+
+  &__timeline {
+    max-width: 100%;
+    position: relative;
+
+    @include mobile {
+      display: grid;
+      gap: 20px;
+      
+      width: 100%;
+    }
+  }
+
+  &__step {
+    &:nth-child(odd) {
+      &::after {
+        content: url(./../../img/steps/timeline-line-small.png);
+        position: absolute;
+        right: 0;
+        bottom: 0;
+
+        @include mobile {
+          content: none;
+        }
+      }
+
+      .step__box {
+        flex-direction: row;
+        padding-right: 40px;
+
+        width: 100%;
+        max-width: 418px;
+        justify-content: end;
+
+        @include mobile {
+          flex-direction: row-reverse;
+          justify-content: start;
+
+          padding: 0;
+          max-width: 100%;
+        }
+
+        &.anim {
+          opacity: 0;
+          transform: translateX(-30px);
+          transition: all 0.5s ease-in;
+        }
+    
+        &.active {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    }
+
+    &:nth-child(even) {
+      &::after {
+        content: url(./../../img/steps/timeline-line-small.png);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+
+        @include mobile {
+          content: none;
+        }
+      }
+
+      .step__box {
+        flex-direction: row-reverse;
+        padding-left: 40px;
+
+        width: 100%;
+        max-width: 418px;
+        justify-content: start;
+
+        @include mobile {
+          padding: 0;
+          max-width: 100%;
+        }
+
+        &.anim {
+          opacity: 0;
+          transform: translateX(30px);
+          transition: all 0.8s ease-in;
+        }
+    
+        &.active {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    }
+
+    &:last-child .step__box {
+      padding-bottom: 0;
+    }
+
+    &:last-child::after {
+      content: none;
+    }
+  }
+}

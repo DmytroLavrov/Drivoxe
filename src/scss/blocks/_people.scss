@@ -1,0 +1,42 @@
+.people {
+
+  &__content {}
+
+	&__avatars {
+    display: inline-flex;
+
+    margin-bottom: clamp(22px, 1.196rem + 0.89vw, 32px);
+	}
+
+  &__img {
+    &:first-of-type {
+      margin: 0;
+    }
+    margin-left: -12px;
+
+    @include mobile-m {
+      img {
+        width: 40px;
+      }
+    }
+  }
+
+	&__title {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+    margin-bottom: 16px;
+	}
+
+	&__desc {
+    max-width: 170px;
+    margin-bottom: 29.11px;
+
+    text-wrap: wrap;
+    font-size: 14px;
+    font-weight: 400;
+
+    opacity: 0.6;
+	}
+}

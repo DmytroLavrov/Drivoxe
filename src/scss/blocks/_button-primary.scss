@@ -1,0 +1,36 @@
+.button-primary {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: var(--font-cta);
+  color: var(--cta-color);
+
+  border-radius: 32px;
+  padding: 10.5px 26px;
+  background-color: var(--accent);
+
+  transition: opacity 0.2s ease-in;
+
+  a {
+    color: var(--cta-color);
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &--white {
+    color: var(--accent);
+
+    border: 1px solid var(--accent);
+    padding: clamp(7.5px, 0.415rem + 0.27vw, 10.5px) clamp(14px, 0.661rem + 1.07vw, 26px);
+    background-color: var(--cta-white-ui);
+
+    transition: all 0.2s ease-in;
+
+    &:hover {
+      background-color: var(--accent);
+      color: var(--cta-color);
+      opacity: 1;
+    }
+  }
+}

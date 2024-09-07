@@ -1,0 +1,139 @@
+.step {
+  position: relative;
+  width: 50%;
+
+  &:nth-child(even) {
+    right: -50%;
+    text-align: end;
+
+    @include mobile {
+      right: auto;
+      text-align: start;
+    }
+  }
+  
+  &__box {
+    display: inline-flex;
+    gap: 32px;
+    padding-bottom: 50px;
+
+    @include mobile {
+      align-items: center;
+
+      padding: 0;
+    }
+  }
+
+  &__content {
+    text-align: right;
+    max-width: 196px;
+
+    align-self: center;
+    animation: opacityIn 0.3s linear;
+
+    @include mobile {
+      text-align: left;
+      max-width: 100%;
+    }
+  }
+    
+  &:nth-child(even) .step__content {
+    text-align: left;
+  }
+
+  &__title {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+
+  &__description {
+    display: none;
+  }
+
+  &__icon {
+    max-width: 150px;
+    width: 100%;
+    height: 150px;
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+    box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 43px;
+
+    &--open {
+      background-color: var(--accent);
+    }
+
+    @include mobile {
+      max-width: 100px;
+      height: 100px;
+
+      border-radius: 30px;
+      padding: 0;
+    }
+  }
+
+  &__dot {
+    position: absolute;
+
+    @include mobile {
+      display: none;
+    }
+  }
+
+  &:nth-child(odd) .step__dot {
+    top: -0px;
+    right: -19.5px;
+  }
+
+  &:nth-child(even) .step__dot {
+    top: -0px;
+    left: -19.5px;
+  }
+
+  &__content--open {
+    animation: fadeIn 0.3s linear;
+
+    .step__title {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: clamp(16px, 0.714rem + 1.43vw, 32px);
+    }
+
+    .step__description {
+      display: block;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 133%;
+      opacity: 0.6;
+    }
+  }
+
+  @include mobile {
+    width: 100%;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes opacityIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

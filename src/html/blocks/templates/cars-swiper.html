@@ -1,0 +1,12 @@
+<!-- Slider main container -->
+<div class="cars-swiper swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    @@loop('./card.html', './data/products.json')
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination">
+    <div class="swiper-pagination-bullet my-swiper-pagination-bullet">5</div>
+  </div>
+</div>

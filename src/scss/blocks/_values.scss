@@ -1,0 +1,90 @@
+.values {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+
+    @include tablet {
+      flex-direction: column;
+    }
+  }
+
+  &__content {
+    padding: 39px 0px 133px 0px;
+    max-width: 400px;
+
+    @include tablet {
+      max-width: 100%;
+      padding-top: 0;
+      text-align: center;
+      padding-bottom: 33px;
+    }
+
+    opacity: 0;
+		transform: translateX(-30px);
+
+		transition: all 0.8s ease-in;
+
+		&.active {
+			opacity: 1;
+			transform: translateX(0);
+		}
+  }
+
+  &__title {
+    margin-bottom: 123px;
+
+    @include tablet {
+      margin-bottom: 33px;
+    }
+  }
+
+  &__desc {
+    max-width: 272px;
+
+    @include tablet {
+      max-width: 100%;
+    }
+  }
+
+  &__image {
+    position: relative;
+    align-self: center;
+    max-width: 100%;
+
+    img {
+      width: 100%; // Зображення адаптується до ширини контейнера
+    }
+
+    opacity: 0;
+		transform: translateX(30px);
+
+		transition: all 0.8s ease-in;
+
+		&.active {
+			opacity: 1;
+			transform: translateX(0);
+		}
+  }
+  
+	&__dot {
+		position: absolute;
+    // width: 23px;
+    // height: 23px;
+    z-index: 2;
+
+    &--hood {
+      top: calc(203 * 100% / 526);
+      left: calc(222 * 100% / 912);
+    }
+
+    &--windshield {
+      top: calc(132 * 100% / 526);
+      left: calc(461 * 100% / 912);
+    }
+
+    &--wheel {
+      top: calc(304 * 100% / 526);
+      left: calc(729 * 100% / 912);
+    }
+	}
+}

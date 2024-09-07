@@ -1,0 +1,35 @@
+:root {
+	--container-width: 1370px;
+	--container-padding: 15px;
+
+	--font-main: "Syne", sans-serif;
+	--font-titles: "Syne", sans-serif;
+	--font-descriptions: "Syne", sans-serif;
+	--font-cta: "Syne", sans-serif;
+	--font-label: "Syne", sans-serif;
+
+	--page-bg: #fff;
+	--text-color: #222222;
+	--accent: #FD3B3B;
+	--link-color: #222222;
+
+	--cta-color: #fff;
+	// --cta-white-ui: #fff;
+	--cta-bg: rgba(34, 34, 34, 1);
+
+	--brands-bg: linear-gradient(149deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.2) 100%);
+	--brands-logo-ui: #222222;
+
+	--card-bg: rgba(34, 34, 34, 0.03);
+
+	--step-dot-ui: #222222;
+
+  --laptop-size: 1199px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+}
+
+.dark {
+	--page-bg: #252526;
+	--text-color: #fff;
+}

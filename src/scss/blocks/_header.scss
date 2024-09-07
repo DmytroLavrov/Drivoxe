@@ -1,0 +1,168 @@
+.header {
+	// background-color: #c0e4f4;
+
+	padding-top: 40px;
+
+	// background-image: url('../../img/header/header-bg.jpg');
+	// background-size: contain;
+	// background-repeat: no-repeat;
+	// background-position: center;
+  // aspect-ratio: 1440 / 809;
+	// @include mediaBg() {
+	// 	background-image: url('../../img/header/header-bg@2x.jpg');
+	// }
+
+	&__nav {
+		margin-bottom: clamp(62px, 3.696rem + 0.89vw, 72px);
+
+		@include tablet {
+			display: none;
+		}
+	}
+
+	&__body {
+    display: grid;
+    grid-template-columns: 1.6fr 2fr 1fr;
+
+		@include tablet {
+			display: flex;
+			flex-direction: column;
+			gap: 50px;
+		}
+	}
+	
+	&__left {
+		display: grid;
+		gap: 100px;
+		
+		opacity: 0;
+		transform: translateX(-30px);
+
+		transition: all 0.8s ease-in;
+
+		&.active {
+			opacity: 1;
+			transform: translateX(0);
+		}
+	}
+
+	&__info {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		gap: clamp(26px, 1.089rem + 2.68vw, 56px);
+	}
+
+	&__title {
+		// max-width: 420px;
+	}
+
+	&__desc {
+		max-width: 350px;
+		text-wrap: wrap;
+
+		@include tablet {
+			max-width: 100%;
+		}
+	}
+
+	&__btn {}
+
+	&__socials {
+		display: inline-flex;
+		gap: 16px;
+
+		transition: opacity 0.2s ease-in;
+
+		img {
+			cursor: pointer;
+			
+			&:hover {
+				opacity: 0.8;
+			}
+		}
+
+		@include tablet {
+			display: none;
+		}
+	}
+
+	&__picture {
+		position: relative;
+		align-self: end;
+
+		img {
+			width: 100%;
+		}
+
+		@include tablet {
+			align-self: auto;
+
+			margin: 0 auto;
+
+			max-width: 512px;
+			width: 100%;
+		}
+
+		opacity: 0;
+		transform: translateY(30px);
+
+		transition: all 0.8s ease-in;
+
+		&.active {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+
+	&__dot {
+		position: absolute;
+		// width: 23px;
+		// height: 23px;
+		// top: calc(363 * 100% / 809);
+		// left: calc(892 * 100% / 1440);
+
+    top: 8%;
+    right: 36%;
+	}
+
+	&__right {
+		display: flex;
+		flex-direction: column;
+		justify-content: end;
+		// gap: 130px;
+
+		justify-self: end;
+
+		@include tablet {
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
+		opacity: 0;
+		transform: translateX(30px);
+
+		transition: all 0.8s ease-in;
+
+		&.active {
+			opacity: 1;
+			transform: translateX(0);
+		}
+	}
+
+	&__people {
+		margin-bottom: 130px;
+
+		@include tablet {
+			margin-bottom: 0;
+		}
+	}
+
+	&__tags {
+		margin-bottom: 40px;
+
+		@include tablet {
+			margin-bottom: 0;
+		}
+	}
+}

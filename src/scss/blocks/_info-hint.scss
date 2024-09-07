@@ -1,0 +1,82 @@
+.header .info-hint {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+
+  // width: 142px;
+  // height: 158px;
+  
+  outline: 1px solid #fff;
+  border-radius: 20px;
+  padding: clamp(15px, 1.071rem + 0.89vw, 30px);
+
+  backdrop-filter: blur(10px);
+  box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.1);
+  background: linear-gradient(149deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.2) 100%);
+
+  &__price {
+    font-weight: 500;
+    font-size: clamp(38px, 2.196rem + 0.89vw, 48px);
+    margin-bottom: 8px;
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: clamp(12px, 0.714rem + 0.18vw, 14px);
+    line-height: 114%;
+    text-align: center;
+    opacity: 0.6;
+  }
+}
+
+.values .info-hint {
+  position: absolute;
+
+  &--hood {
+    bottom: 8px;
+    right: 8px;
+
+    width: clamp(92px, 4.159rem + 7.95vw, 162px);
+    // height: 105px;
+  }
+
+  &--windshield {
+    bottom: 8px;
+    left: 8px;
+
+    width: clamp(140px, 7.955rem + 3.98vw, 175px);
+    // height: 122px;
+  }
+
+  &--wheel {
+    top: 8px;
+    right: 8px;
+    // left: 8px;
+
+    width: clamp(158px, 9.42rem + 2.27vw, 178px);
+    // height: 122px;
+  }
+
+  outline: 1px solid #fff;
+  border-radius: 20px;
+  padding: clamp(10px, 0.398rem + 1.14vw, 20px);
+
+  backdrop-filter: blur(10px);
+  box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.1);
+  background: linear-gradient(149deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.2) 100%);
+
+  &__price {
+    font-weight: 600;
+    font-size: clamp(14px, 0.83rem + 0.23vw, 16px);
+    text-align: center;
+    margin-bottom: clamp(8px, 0.409rem + 0.45vw, 12px);
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: clamp(12px, 0.705rem + 0.23vw, 14px);
+    text-align: center;
+    text-wrap: pretty;
+    opacity: 0.6;
+  }
+}

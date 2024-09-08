@@ -5,8 +5,8 @@ swiper();
 // Info-dot
 import { infoDot } from './modules/info-dot.js';
 import { infoDotHover } from './modules/info-dot.js';
-// Initialize dots in the header section
-infoDot('.header');
+// Initialize dots in the hero section
+infoDot('.hero');
 // Initialize dots in the values section
 infoDot('.values');
 // Initialize the hover dots in the values ​​section

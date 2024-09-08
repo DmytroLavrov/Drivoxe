@@ -1,18 +1,20 @@
 function swapBlocks() {
   const peopleContent = document.querySelector('.people__content');
-  const headerRight = document.querySelector('.header__right');
+  const heroRight = document.querySelector('.hero__right');
   const learnMore = document.querySelector('.learn-more');
   
   function adjustBlocks() {
-    if (window.innerWidth <= 1220) {
-      if (!peopleContent.contains(learnMore) && headerRight.contains(learnMore)) {
-        headerRight.removeChild(learnMore);
-        peopleContent.appendChild(learnMore);
-      }
-    } else {
-      if (peopleContent.contains(learnMore)) {
-        peopleContent.removeChild(learnMore);
-        headerRight.appendChild(learnMore);
+    if (peopleContent && heroRight && learnMore) {
+      if (window.innerWidth <= 1220) {
+        if (!peopleContent.contains(learnMore) && heroRight.contains(learnMore)) {
+          heroRight.removeChild(learnMore);
+          peopleContent.appendChild(learnMore);
+        }
+      } else {
+        if (peopleContent.contains(learnMore)) {
+          peopleContent.removeChild(learnMore);
+          heroRight.appendChild(learnMore);
+        }
       }
     }
   }

@@ -4,10 +4,6 @@
 	background-position: bottom;
 	max-height: 692px;
   aspect-ratio: 1440 / 692;
-	
-	@include mediaBg() {
-		background-image: url('../../img/testimonials/testimonials-bg@2x.jpg');
-	}
 
 	&__slider {
 		display: flex;

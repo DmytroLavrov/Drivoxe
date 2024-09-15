@@ -38,7 +38,7 @@ function infoDotHover(selector) {
   const section = document.querySelector(selector);
   if (!section) return;
   
-  const infoBtns = section.querySelectorAll('.info-dot');
+  const infoBtns = section.querySelectorAll('.info-dot');  
 
   infoBtns.forEach((infoBtn) => {
     infoBtn.addEventListener('mouseover', function(e) {
@@ -69,4 +69,38 @@ function infoDotHover(selector) {
   });
 }
 
-export { infoDot, infoDotHover };
+function infoDotHoverAbout(selector) {
+  const section = document.querySelector(selector);
+  if (!section) return;
+
+  const infoBtns = section.querySelectorAll('.info-dot');
+  const topContent = document.querySelectorAll('.timeline__section--top .step__content');
+  const bottomContent = document.querySelectorAll('.timeline__section--bottom .step__content');
+
+  if (infoBtns.length < 4 || topContent.length < 2 || bottomContent.length < 2) {
+    console.error('Not enough info dots or content elements.');
+    return;
+  }
+
+  const mappings = [topContent[0], bottomContent[0], topContent[1], bottomContent[1]];
+
+  infoBtns.forEach((infoBtn, index) => {
+    const content = mappings[index];
+    if (!content) return;
+
+    const icon = content.parentNode.querySelector('.step__icon');
+    const timelineIcon = content.parentNode.querySelector('.icon--timeline-icon');
+
+    const toggleClasses = (add) => {
+      content.classList.toggle('step__content--open', add);
+      icon.classList.toggle('step__icon--open', add);
+      timelineIcon.classList.toggle('icon--timeline-open', add);
+    };
+
+    infoBtn.addEventListener('mouseover', () => toggleClasses(true));
+    infoBtn.addEventListener('mouseout', () => toggleClasses(false));
+  });
+}
+
+
+export { infoDot, infoDotHover, infoDotHoverAbout };

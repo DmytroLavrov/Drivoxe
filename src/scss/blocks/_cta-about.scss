@@ -1,0 +1,58 @@
+.cta-about {
+  &__plate {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    background-color: var(--cta-bg);
+    background-image: url('./../../img/cta/cta-about-bg.jpg');
+    background-position: center center; /* x y */
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    border-radius: 30px;
+    padding: 56px 30px 56px clamp(30px, 0.625rem + 6.25vw, 100px);
+
+    @include mobile {
+      background-position: 75%;
+
+      justify-content: center;
+    }
+
+    @include mobile-m {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+  &__content {
+    max-width: 702px;
+
+    @include mobile {
+      max-width: 100%;
+    }
+  }
+
+  &__title {
+    color: var(--cta-color);
+    margin-bottom: clamp(32px, 1.75rem + 1.25vw, 46px);
+  }
+
+  &__subtitle {
+    color: var(--cta-color);
+    font-weight: 700;
+    font-size: clamp(16px, 0.857rem + 0.71vw, 24px);
+    margin-bottom: 32px;
+    text-wrap: wrap;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 16px;
+
+    cursor: pointer;
+  }
+
+  &__button {
+  }
+}

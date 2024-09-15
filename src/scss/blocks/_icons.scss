@@ -68,7 +68,7 @@
 	}
 }
 
-.icon--timeline-icon {
+.steps .icon--timeline-icon {
 	fill: var(--brands-logo-ui);
 
 	max-width: 64px;
@@ -80,11 +80,46 @@
 	}
 }
 
-.icon--timeline-open {
+.steps .icon--timeline-open {
 	fill: #fff;
 
 	max-width: 64px;
 	height: 64px;
 
 	transition: fill 0.3s ease;
+}
+
+.icon--advantage {
+	fill: var(--advantage-icon-ui);
+
+	max-width: 46px;
+	max-height: 46px;
+}
+
+.steps-about .icon--timeline-icon {
+	fill: var(--brands-logo-ui);
+
+	max-width: 64px;
+	height: 64px;
+
+	@include tablet-small {
+		max-width: 48px;
+		height: 48px;
+	}
+}
+
+.steps-about .icon--timeline-open {
+	fill: #fff;
+
+	max-width: 64px;
+	height: 64px;
+
+	transition: fill 0.3s ease;
+}
+
+.icon--achievement {
+	fill: var(--accent);
+
+	max-width: 63px;
+	height: 63px;
 }

@@ -1,0 +1,53 @@
+.about {
+  &__header-block {
+    margin-bottom: 56px;
+  }
+
+  &__background {
+    background-image: url('./../../img/about/about-bg.jpg');
+    background-position: center center; /* x y */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 400px;
+
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.5s ease-in;
+    transition-delay: 0.5s;
+
+		&.active {
+			opacity: 1;
+      transform: translateY(0);
+		}
+
+    @include mediaBg() {
+      background-image: url('./../../img/about/about-bg@2x.jpg');
+    }
+
+    @media only screen and (min-width: 1620px) {
+      height: 600px;
+    }
+
+    @media only screen and (min-width: 2048px) {
+      height: 700px;
+    }
+
+    @include tablet {
+      height: 350px;
+    }
+
+    @include tablet-small {
+      height: 300px;
+      background-position: 30%;
+    }
+
+    @include mobile {
+      height: 250px;
+    }
+
+    @include mobile-m {
+      height: 200px;
+    }
+  }
+}

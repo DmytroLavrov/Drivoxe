@@ -1,0 +1,15 @@
+.advantages {
+
+  &__header-block {
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(24px, 1.429rem + 0.36vw, 28px);
+
+    @include mobile {
+      grid-template-columns: 1fr;
+    }
+  }
+}

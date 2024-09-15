@@ -1,25 +1,17 @@
-/* Демо контент */
+/* Content-demo */
 .content-demo {
 	margin-bottom: 5rem;
 	padding: 1rem;
 	background-color: #dadada;
 }
 
-/* Контейнеры */
+/* Containers */
 .container {
 	margin: 0 auto;
 	padding: 0 var(--container-padding);
 
 	max-width: var(--container-width);
 	width: 100%;
-
-	&--cars {
-		max-width: 998px;
-	}
-
-	&--steps {
-		max-width: 906px;
-	}
 }
 
 .container-full {
@@ -98,4 +90,12 @@
 	@include mobile {
 		padding: 0 var(--container-padding);
 	}
+}
+
+.no-container {
+	margin: 0;
+	padding: 0;
+
+	max-width: 100%;
+	width: 100%;
 }

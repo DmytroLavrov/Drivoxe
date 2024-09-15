@@ -1,16 +1,5 @@
 .header {
-	// background-color: #c0e4f4;
-
 	padding-top: 40px;
-
-	// background-image: url('../../img/header/header-bg.jpg');
-	// background-size: contain;
-	// background-repeat: no-repeat;
-	// background-position: center;
-  // aspect-ratio: 1440 / 809;
-	// @include mediaBg() {
-	// 	background-image: url('../../img/header/header-bg@2x.jpg');
-	// }
 
 	&__nav {
 		margin-bottom: clamp(62px, 3.696rem + 0.89vw, 72px);

@@ -1,0 +1,59 @@
+.brands-about {
+  // padding-top: 50px;
+  margin-top: -100px;
+  
+  &__marquee {
+    padding: clamp(10px, 0.357rem + 1.34vw, 25px);
+    /* height: 90px; */
+    border-radius: 10px;
+
+    backdrop-filter: blur(10px);
+    background-color: var(--brands-bg);
+
+    overflow: hidden;
+
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+    transition-delay: 1s;
+
+    div {
+      display: flex;
+      width: 200%;
+      animation: brandsMarquee 10s linear infinite;
+
+      @include mobile-m {
+        animation: brandsMarquee 5s linear infinite;
+      }
+    }
+
+    &:hover div {
+      animation-play-state: paused;
+    }
+
+    &.active {
+      opacity: 1;
+    }
+  }
+  
+  &__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .icon {
+    @include tablet-small {
+      padding-left: 10px;
+    }
+  }
+}
+
+@keyframes brandsMarquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

@@ -1,6 +1,7 @@
 .hero .info-dot,
 .values .info-dot,
-.steps .info-dot {
+.steps .info-dot,
+.steps-about .info-dot {
   position: relative;
   cursor: pointer;
 
@@ -57,7 +58,8 @@
   }
 }
 
-.steps .info-dot {  
+.steps .info-dot,
+.steps-about .info-dot {  
   width: 40px;
   height: 40px;
 
@@ -92,6 +94,30 @@
       width: 40px;
       height: 40px;
       background-color: rgba(34, 34, 34, 0.25);
+    }
+  }
+}
+
+.steps-about .info-dot {
+  @include tablet-small {
+    width: 23px;
+    height: 23px;
+
+    &__circle {
+      width: 6.9px;
+      height: 6.9px;
+    }
+
+    &__radius {
+      &::before {
+        width: 16.1px;
+        height: 16.1px;
+      }
+  
+      &::after {
+        width: 23px;
+        height: 23px;
+      }
     }
   }
 }

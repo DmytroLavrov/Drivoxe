@@ -1,0 +1,30 @@
+.achievement {
+
+  opacity: 0;
+  transform: translateY(30px);
+
+  transition: all 0.8s ease-in;
+
+  &.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  &__body {
+    max-width: 130px;
+    max-height: 117px;
+
+    @include tablet-small {
+      text-align: center;
+    }
+  }
+
+  &__title {
+  }
+}
+
+@for $i from 1 through 8 {
+  .achievement:nth-child(#{$i}) {
+    transition-delay: #{$i * 0.1}s;
+  }
+}

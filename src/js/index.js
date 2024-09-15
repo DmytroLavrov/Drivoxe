@@ -3,14 +3,16 @@ import swiper from './modules/swiper.js';
 swiper();
 
 // Info-dot
-import { infoDot } from './modules/info-dot.js';
+import { infoDot, infoDotHoverAbout } from './modules/info-dot.js';
 import { infoDotHover } from './modules/info-dot.js';
 // Initialize dots in the hero section
 infoDot('.hero');
 // Initialize dots in the values section
 infoDot('.values');
-// Initialize the hover dots in the values ​​section
+// Initialize the hover dots in the steps ​​section
 infoDotHover('.steps');
+// Initialize the hover dots in the steps ​​section
+infoDotHoverAbout('.steps-about');
 
 // Swap blocks
 import swapBlocks from './utils/swap-blocks.js';

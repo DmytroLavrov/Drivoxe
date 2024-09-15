@@ -1,4 +1,8 @@
 .cars {
+	&__container {
+		max-width: 998px;
+	}
+
   &__slider {
     // display: grid;
     // row-gap: 48px;

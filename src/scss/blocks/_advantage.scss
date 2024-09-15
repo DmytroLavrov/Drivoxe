@@ -1,0 +1,64 @@
+.advantage {
+  display: grid;
+  gap: clamp(28px, 1.679rem + 0.36vw, 32px);
+
+  padding: clamp(28px, 1.679rem + 0.36vw, 32px);
+
+  border-radius: 10px;
+  background-color: var(--advantage-card);
+
+  transition: outline 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+  transition: background-color 0.2s ease-in;
+
+  &:hover {
+    outline: 0.50px solid #fd3b3b;
+    box-shadow: 0 0 4px 0 #fd3b3b;
+    background-color: #fff;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: clamp(24px, 1.429rem + 0.36vw, 28px);
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  &__description {
+    font-weight: 500;
+    font-size: clamp(16px, 0.964rem + 0.18vw, 18px);
+    line-height: 133%;
+    opacity: 0.6;
+    text-wrap: wrap;
+  }
+
+  &:nth-child(odd) {
+    opacity: 0;
+		transform: translateX(-30px);
+
+		transition: all 0.8s ease-in;
+    transition-delay: 0.1s;
+
+		&.active {
+			opacity: 1;
+			transform: translateX(0);
+		}
+  }
+
+  &:nth-child(even) {
+    opacity: 0;
+		transform: translateX(30px);
+
+		transition: all 0.8s ease-in;
+
+		&.active {
+			opacity: 1;
+			transform: translateX(0);
+		}
+  }
+}

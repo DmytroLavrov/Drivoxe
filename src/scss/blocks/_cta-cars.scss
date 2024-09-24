@@ -1,0 +1,40 @@
+.cta-cars {
+  &__plate {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    background-color: var(--cta-bg);
+    background-image: url('./../../img/cta/cta-cars-bg.jpg');
+    background-position: center center; /* x y */
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    border-radius: 30px;
+    padding: 56px clamp(30px, 0.625rem + 6.25vw, 100px) 56px 30px;
+
+    @include mobile {
+      background-position: 75%;
+
+      justify-content: center;
+    }
+
+    @include mobile-m {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+  &__content {
+    // max-width: 702px;
+    text-align: end;
+
+    @include mobile {
+      max-width: 100%;
+    }
+  }
+
+  &__header-block {}
+
+  &__btn {}
+}

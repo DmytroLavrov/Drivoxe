@@ -33,3 +33,19 @@
     transform: translateY(0);
   }
 }
+
+.cta-cars .header-block {
+  color: var(--cta-color);
+  text-align: end;
+  
+  &__label {
+    margin-bottom: clamp(32.5px, 1.817rem + 1.07vw, 44.5px);
+  }
+
+  &__title {
+  }
+
+  &--margin {
+    margin-bottom: clamp(32.5px, 1.817rem + 1.07vw, 44.5px);
+  }
+}

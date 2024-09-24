@@ -1,4 +1,4 @@
-.tags {
+.hero .tags {
   display: flex;
   flex-wrap: wrap;
   column-gap: 8px;
@@ -33,5 +33,48 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
+  }
+}
+
+.catalog .tags {
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    list-style: none;
+  }
+
+  &__row {
+    display: flex;
+    // justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0;
+
+    transition: opacity 0.2s ease-in;
+
+    &::after {
+      content: '/';
+      margin-left: 16px;
+    }
+
+    a {
+      text-wrap: nowrap;
+    }
+
+		&:hover {
+			opacity: 0.8;
+		}
+  }
+
+  &__row > li:nth-child(3n)::after {
+    content: none;
   }
 }

@@ -212,6 +212,12 @@ gulp.task('svgSymbol:docs', function () {
 		.pipe(gulp.dest('./docs/img/svgsprite/'));
 });
 
+gulp.task('json:docs', function () {
+	return gulp
+		.src('./src/backend/*.json')
+		.pipe(gulp.dest('./docs/backend/'));
+});
+
 gulp.task('files:docs', function () {
 	return gulp
 		.src('./src/files/**/*')
@@ -227,6 +233,12 @@ gulp.task('js:docs', function () {
 		.pipe(babel())
 		.pipe(webpack(require('./../webpack.config.js')))
 		.pipe(gulp.dest('./docs/js/'));
+});
+
+gulp.task('json:dev', function () {
+	return gulp
+		.src('./src/backend/*.json')
+		.pipe(gulp.dest('./build/backend/'));
 });
 
 const serverOptions = {

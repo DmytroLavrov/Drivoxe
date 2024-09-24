@@ -14,6 +14,10 @@ infoDotHover('.steps');
 // Initialize the hover dots in the steps ​​section
 infoDotHoverAbout('.steps-about');
 
+// load cars for catalog
+import { loadCars } from './modules/cars.js';
+loadCars();
+
 // Swap blocks
 import swapBlocks from './utils/swap-blocks.js';
 swapBlocks();

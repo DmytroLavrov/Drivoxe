@@ -1,0 +1,39 @@
+.search-catalog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+
+  // width: 320px;
+
+  padding: 10px 20px;
+  background-color: var(--search-catalog-bg);
+
+	&__input {
+		flex-grow: 1;
+
+    font-weight: 400;
+    font-size: 14px;
+    
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		
+		&::placeholder {
+			opacity: 0.6;
+			text-overflow: ellipsis;
+		}
+	}
+
+	&__btn {
+		flex-grow: 0;
+		transition: opacity 0.2s ease-in;
+
+    width: 14px;
+    height: 14px;
+
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+}

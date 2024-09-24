@@ -194,6 +194,12 @@ gulp.task('svgSymbol:dev', function () {
 		.pipe(gulp.dest('./build/img/svgsprite/'));
 });
 
+gulp.task('json:dev', function () {
+	return gulp
+		.src('./src/backend/*.json')
+		.pipe(gulp.dest('./build/backend/'));
+});
+
 gulp.task('files:dev', function () {
 	return gulp
 		.src('./src/files/**/*')
@@ -229,6 +235,7 @@ gulp.task('watch:dev', function () {
 	gulp.watch('./src/img/**/*', gulp.parallel('images:dev'));
 	gulp.watch('./src/files/**/*', gulp.parallel('files:dev'));
 	gulp.watch('./src/js/**/*.js', gulp.parallel('js:dev'));
+	gulp.watch('./src/backend/*.json', gulp.parallel('json:dev'));
 	gulp.watch(
 		'./src/img/svgicons/*',
 		gulp.series('svgStack:dev', 'svgSymbol:dev')

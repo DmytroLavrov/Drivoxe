@@ -9,7 +9,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 
-    height: 400px;
+    height: clamp(200px, 8.929rem + 17.86vw, 400px);
 
     opacity: 0;
     transform: translateY(30px);
@@ -21,33 +21,33 @@
       transform: translateY(0);
 		}
 
-    @include mediaBg() {
-      background-image: url('./../../img/about/about-bg@2x.jpg');
-    }
-
-    @media only screen and (min-width: 1620px) {
+    @media (min-width: 1620px) {
       height: 600px;
     }
 
-    @media only screen and (min-width: 2048px) {
+    @media (min-width: 2048px) {
       height: 700px;
     }
 
-    @include tablet {
-      height: 350px;
-    }
-
     @include tablet-small {
-      height: 300px;
       background-position: 30%;
     }
 
-    @include mobile {
-      height: 250px;
-    }
+    // @include tablet {
+    //   height: 350px;
+    // }
 
-    @include mobile-m {
-      height: 200px;
-    }
+    // @include tablet-small {
+    //   height: 300px;
+    //   background-position: 30%;
+    // }
+
+    // @include mobile {
+    //   height: 250px;
+    // }
+
+    // @include mobile-m {
+    //   height: 200px;
+    // }
   }
 }

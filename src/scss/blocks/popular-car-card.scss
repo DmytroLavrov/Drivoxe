@@ -1,0 +1,40 @@
+.popular-car-card {
+  position: relative;
+
+  display: flex;
+  gap: 16px;
+
+  transition: color 0.2s ease-in;
+
+  &__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  &__image {
+    max-width: 104px;
+    border-radius: 10px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    font-weight: 700;
+    font-size: clamp(14px, 0.839rem + 0.18vw, 16px);
+  }
+
+  &__name {
+  }
+
+  &__price {
+  }
+
+  &:hover .popular-car-card__name {
+    color: var(--accent);
+  }
+}

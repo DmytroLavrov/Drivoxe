@@ -2,7 +2,8 @@
   max-width: 968px;
   height: 860px;
   box-sizing: content-box;
-  padding-bottom: 120px !important;
+  // padding-bottom: 120px !important;
+  padding-bottom: 140px !important;
 
   &-slide {
     height: calc((100% - 30px) / 2);
@@ -69,5 +70,64 @@
 
   .swiper-pagination-bullet-active {
     background: var(--accent);
+  }
+}
+
+.catalog .swiper {
+  max-width: 936px;
+  height: 1314px;
+  box-sizing: content-box;
+  padding-bottom: 74px !important;
+
+  &-slide {
+    height: calc((100% - 30px) / 2);
+  }
+
+  &-pagination {
+    display: inline-flex !important;
+    justify-content: center !important;
+    bottom: 0 !important;
+    gap: 48px !important;
+
+    @include mobile-m {
+      gap: 12px !important;
+    }
+
+    &-bullet {
+      background-color: transparent !important;
+      height: 100%;
+
+      color: var(--text-color);
+      opacity: 0.6;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 24px;
+
+      &-active {
+        color: var(--accent);
+        opacity: 1;
+        font-size: 16px;
+      }
+    }
+  }
+
+  // @include mobile-m {
+  //   height: 1600px;
+  // }
+
+  // @include mobile-xs {
+  //   height: 1300px;
+  // }
+
+  @include tablet {
+    height: 914px;
+  }
+
+  @include mobile-m {
+    height: 1514px;
+  }
+
+  @include mobile-xs {
+    height: 1314px;
   }
 }

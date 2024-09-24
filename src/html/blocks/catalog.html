@@ -1,0 +1,69 @@
+<section class="catalog">
+  <div class="container">
+    <div class="catalog__grid">
+      <div class="catalog__filter">
+        <div class="catalog__results">
+          <p>Showing 1-9 of 24 results</p>
+        </div>
+        <div class="catalog__sort">
+          <select id="sort">
+            <option value="default">Default</option>
+            <option value="price-asc">Price: Low to High</option>
+            <option value="price-desc">Price: High to Low</option>
+          </select>
+        </div>
+      </div>
+      <form class="search-catalog">
+        <input type="text" placeholder="Search Your Pick" class="search-catalog__input">
+        <button class="search-catalog__btn">
+          <svg class="icon icon--search-catalog">
+            <use href="./img/svgsprite/sprite.symbol.svg#search-catalog"></use>
+          </svg>
+        </button>
+      </form>
+      <div class="catalog__slider">
+        @@include('templates/catalog-swiper.html')
+      </div>
+      <div class="catalog__sidebar">
+        <div class="catalog__popular-cars popular-cars">
+          <h3 class="catalog__title title-3">Popular Cars</h3>
+          <div class="popular-cars__list"></div>
+        </div>
+        <div class="catalog__categories categories">
+          <h3 class="catalog__title title-3">Categories</h3>
+          <ul class="categories__list">
+            <li class="categories__item"><a href="">Hatchback</a></li>
+            <li class="categories__item"><a href="">City Car</a></li>
+            <li class="categories__item"><a href="">Coupe</a></li>
+            <li class="categories__item"><a href="">Vintage</a></li>
+            <li class="categories__item"><a href="">Station Wagon</a></li>
+            <li class="categories__item"><a href="">Sports</a></li>
+            <li class="categories__item"><a href="">Micro Car</a></li>
+            <li class="categories__item"><a href="">Minivan</a></li>
+            <li class="categories__item"><a href="">Pickup</a></li>
+            <li class="categories__item"><a href="">Sedan</a></li>
+            <li class="categories__item"><a href="">SUV</a></li>
+            <li class="categories__item"><a href="">MPV</a></li>
+            <li class="categories__item"><a href="">Convertible</a></li>
+            <li class="categories__item"><a href="">Grand Tourer</a></li>
+          </ul>
+        </div>
+        <div class="catalog__categories tags">
+          <h3 class="catalog__title title-3">Tags</h3>
+          <div class="tags__list">
+            <ul class="tags__row">
+              <li class="tags__item"><a href="">Affordable</a></li>
+              <li class="tags__item"><a href="">Popular cars</a></li>
+              <li class="tags__item"><a href="">Van</a></li>
+            </ul>
+            <ul class="tags__row">
+              <li class="tags__item"><a href="">Sedan</a></li>
+              <li class="tags__item"><a href="">Family Car</a></li>
+              <li class="tags__item"><a href="">Vintage</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

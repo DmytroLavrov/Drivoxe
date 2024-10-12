@@ -18,6 +18,10 @@ infoDotHoverAbout('.steps-about');
 import { setupCatalogSwiper } from './modules/cars.js';
 setupCatalogSwiper();
 
+// Initialize the FAQ accordion
+import { faqAccordionToggle } from './modules/faq-accordion.js';
+faqAccordionToggle();
+
 // Swap blocks
 import swapBlocks from './utils/swap-blocks.js';
 swapBlocks();

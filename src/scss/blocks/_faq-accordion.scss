@@ -1,0 +1,45 @@
+.faq-accordion {
+  display: grid;
+  gap: 10px;
+
+  &__item {
+    display: grid;
+    gap: 16px;
+
+    background: #f8f8f8;
+
+    border-radius: 10px;
+    padding: 20px 26px;
+    // width: 650px;
+    // height: 112px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+
+    cursor: pointer;
+  }
+
+  &__question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  &__arrow {
+  }
+
+  &__answer {
+    font-size: 14px;
+    line-height: 114%;
+  }
+}
+
+.faq-active {
+  color: #fff;
+  background: #fd3b3b;
+}
+
+.faq-arrow-up {
+}

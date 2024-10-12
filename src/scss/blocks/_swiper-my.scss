@@ -80,7 +80,7 @@
   padding-bottom: 74px !important;
 
   &-slide {
-    height: calc((100% - 30px) / 2);
+    // height: calc((100% - 30px) / 2);
   }
 
   &-pagination {
@@ -124,10 +124,38 @@
   }
 
   @include mobile-m {
-    height: 1514px;
+    height: 1314px;
+    width: 290px;
+  }
+}
+
+.swiper-custom-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 48px;
+  width: 100%;
+  height: 100%;
+
+  @media (max-width: 1275px) {
+    gap: 28px;
+  };
+
+  @include tablet {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
   }
 
-  @include mobile-xs {
-    height: 1314px;
+  @include tablet-small {
+    gap: 48px;
+  }
+
+  @include mobile {
+    gap: 20px;
+  }
+
+  @include mobile-m {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
 }

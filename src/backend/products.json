@@ -3,108 +3,119 @@
     "image": "01",
     "name": "Horizon Mirage Convertible",
     "price": 49,
-    "orders": 10
+    "orders": 10,
+    "category": "Convertible"
   },
   {
     "image": "02",
     "name": "Zephyr A4 Stratos",
     "price": 79,
-    "orders": 120
+    "orders": 120,
+    "category": "Coupe"
   },
   {
     "image": "03",
     "name": "Aurora X5 Nebula",
     "price": 99,
-    "orders": 30
+    "orders": 30,
+    "category": "SUV"
   },
   {
     "image": "04",
     "name": "Vanguard CX2 Convertible",
     "price": 59,
-    "orders": 25
+    "orders": 25,
+    "category": "Convertible"
   },
   {
     "image": "05",
     "name": "Stellar Orion Hybrid",
     "price": 39,
-    "orders": 15
+    "orders": 15,
+    "category": "City Car"
   },
   {
     "image": "06",
     "name": "Vanguard C-Class Coupe",
     "price": 69,
-    "orders": 20
+    "orders": 20,
+    "category": "Coupe"
   },
   {
     "image": "07",
     "name": "Equinox F-Eclipse",
     "price": 109,
-    "orders": 5
+    "orders": 5,
+    "category": "Sports"
   },
   {
     "image": "08",
     "name": "Radiant Solstice Automobiles",
     "price": 89,
-    "orders": 8
+    "orders": 8,
+    "category": "Sedan"
   },
   {
     "image": "09",
     "name": "Zenith Tempest",
     "price": 129,
-    "orders": 12
+    "orders": 12,
+    "category": "Grand Tourer"
   },
   {
     "image": "01",
     "name": "Horizon Mirage Convertible",
     "price": 49,
-    "orders": 10
+    "orders": 10,
+    "category": "Convertible"
   },
   {
     "image": "01",
     "name": "Horizon Mirage Convertible",
     "price": 49,
-    "orders": 10
+    "orders": 10,
+    "category": "Convertible"
   },
   {
     "image": "01",
     "name": "Horizon Mirage Convertible",
     "price": 49,
-    "orders": 10
+    "orders": 10,
+    "category": "Convertible"
   },
   {
     "image": "01",
     "name": "Horizon Mirage Convertible",
     "price": 49,
-    "orders": 10
+    "orders": 10,
+    "category": "Convertible"
   },
   {
     "image": "01",
     "name": "Horizon Mirage Convertible",
     "price": 49,
-    "orders": 10
+    "orders": 10,
+    "category": "Convertible"
   },
   {
     "image": "01",
     "name": "Horizon Mirage Convertible",
     "price": 49,
-    "orders": 10
+    "orders": 10,
+    "category": "Convertible"
   },
   {
     "image": "01",
     "name": "Horizon Mirage Convertible",
     "price": 49,
-    "orders": 10
+    "orders": 10,
+    "category": "Convertible"
   },
   {
     "image": "01",
     "name": "Horizon Mirage Convertible",
     "price": 49,
-    "orders": 10
-  },
-  {
-    "image": "01",
-    "name": "Horizon Mirage Convertible",
-    "price": 49,
-    "orders": 10
+    "orders": 10,
+    "category": "Convertible"
   }
 ]

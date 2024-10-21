@@ -1,0 +1,57 @@
+.cta-car {
+  &__plate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--cta-bg);
+    background-image: url('./../../img/cta/cta-car-bg.jpg');
+    // background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    @include mediaBg() {
+      background-image: url('./../../img/cta/cta-car-bg@2x.jpg');
+    }
+    
+    border-radius: 30px;
+    padding: 56px 30px;
+
+    @include mobile {
+      background-position: 15%;
+    }
+
+    @include mobile-m {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+  &__content {
+    max-width: 850px;
+    text-align: center;
+
+    @include tablet {
+      max-width: 750px;
+    }
+
+    @include mobile {
+      max-width: 100%;
+    }
+  }
+
+  &__title {
+    color: var(--cta-color);
+    margin-bottom: clamp(32px, 1.75rem + 1.25vw, 46px);
+  }
+
+  &__subtitle {
+    color: var(--cta-color);
+    font-weight: 700;
+    font-size: clamp(16px, 0.857rem + 0.71vw, 24px);
+    margin-bottom: 32px;
+    text-wrap: wrap;
+  }
+
+  &__btn {}
+}

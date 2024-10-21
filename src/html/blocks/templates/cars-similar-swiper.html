@@ -1,0 +1,15 @@
+<!-- Slider main container -->
+<div class="cars-similar-swiper swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    @@loop('./card-minimal.html', './data/products.json')
+  </div>
+  <!-- If we need navigation buttons -->
+  <button id="sliderPrev" class="cars-similar__button cars-similar__button--prev">
+    <img src="./../../../img/svgicons-no-sprite/arrow-left-medium-red.svg" alt="arrow-left-medium">
+  </button>
+  <button id="sliderNext" class="cars-similar__button cars-similar__button--next">
+    <img src="./../../../img/svgicons-no-sprite/arrow-right-medium-red.svg" alt="arrow-right-medium">
+  </button>
+</div>

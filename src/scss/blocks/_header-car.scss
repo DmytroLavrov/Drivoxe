@@ -1,0 +1,41 @@
+.header-car {
+	padding: 60.48px 0;
+
+	background-image: url('./../../img/header/header-car-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 60%;
+	
+	@include mediaBg() {
+		background-image: url('./../../img/header/header-car-bg@2x.jpg');
+	}
+
+	&__nav {
+		margin-bottom: clamp(46px, 2.696rem + 0.89vw, 56px);
+
+		@include tablet {
+			display: none;
+		}
+
+		a {
+			color: #fff;
+		}
+	}
+
+	&__header-block {
+		text-align: left;
+		color: #fff;
+	}
+}
+
+.header-car .mobile-nav-btn {
+	--color: #fff;
+}
+
+.header-car .header-block__label {
+	margin-bottom: 10px;
+}
+
+.header-car .nav__border {
+	border: 1px solid #fff;
+}

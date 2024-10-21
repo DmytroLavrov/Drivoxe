@@ -9,6 +9,10 @@
     background-size: cover;
     background-repeat: no-repeat;
 
+    @include mediaBg() {
+      background-image: url('./../../img/about/about-bg@2x.jpg');
+    }
+
     height: clamp(200px, 8.929rem + 17.86vw, 400px);
 
     opacity: 0;

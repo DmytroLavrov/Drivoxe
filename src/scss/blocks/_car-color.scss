@@ -1,0 +1,32 @@
+.car-color {
+
+  &__radio {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+  &__radio-fake {
+    width: 24px;
+    height: 24px;
+
+    border-radius: 100%;
+
+    &--red {
+      background-color: #fd3b3b;
+    }
+
+    &--black {
+      background-color: #222;
+    }
+
+    &--gray {
+      background-color: #f8f8f8;
+      border: 0.25px solid #222;
+    }
+  }
+}

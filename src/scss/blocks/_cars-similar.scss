@@ -1,0 +1,66 @@
+.cars-similar {
+  &__container {
+    position: relative;
+
+    opacity: 0;
+		transform: translateY(40px);
+
+		transition: all 0.8s ease-in;
+		transition-delay: 0.2s;
+
+		&.active {
+			opacity: 1;
+			transform: translateY(0);
+		}
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: clamp(40px, 2.357rem + 0.71vw, 48px);
+    color: #000;
+    margin-bottom: 56px;
+  }
+
+  &__slider {}
+
+  &__button {
+		background-color: var(--accent);
+		padding: 19px 15.5px;
+		border-radius: 50px;
+		position: absolute;
+    top: 4px;
+    right: 15px;
+
+		&--prev {
+			z-index: 2;
+      transform: translate(-148%, -0%);
+		}
+
+		&--next {
+			z-index: 2;
+		}
+
+    @include tablet-small {
+      background-color: var(--accent);
+      padding: 19px 15.5px;
+      border-radius: 50px;
+      position: absolute;
+      top: auto;
+      right: auto;
+  
+      &--prev {
+        z-index: 2;
+        left: 0;
+        top: 50%;
+        transform: translate(0%, -50%);
+      }
+  
+      &--next {
+        z-index: 2;
+        right: 0;
+        top: 50%;
+        transform: translate(0%, -50%);
+      }
+    }
+	}
+}

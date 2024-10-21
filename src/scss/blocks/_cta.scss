@@ -9,6 +9,10 @@
     background-position: center center; /* x y */
     background-size: cover;
     background-repeat: no-repeat;
+
+    @include mediaBg() {
+      background-image: url('./../../img/cta/cta-bg@2x.jpg');
+    }
     
     border-radius: 30px;
     // padding: 80px 193px 80px 0;

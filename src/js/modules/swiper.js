@@ -51,6 +51,46 @@ function swiper() {
       clickable: true,
     },
   });
+
+  const carsSimilarSwiper = new Swiper('.cars-similar-swiper', {
+    navigation: {
+      nextEl: '#sliderNext',
+      prevEl: '#sliderPrev',
+    },
+
+    // pagination: {
+    //   el: '.swiper-pagination',
+    //   clickable: true,
+    // },
+    
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+        spaceBetween: 35,
+      },
+      380: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+        spaceBetween: 35,
+      },
+      650: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+        spaceBetween: 35,
+      },
+      821: {
+        slidesPerView: 4,
+        slidesPerGroup: 4,
+        spaceBetween: 35,
+      },
+      1221: {
+        slidesPerView: 5,
+        slidesPerGroup: 5,
+        spaceBetween: 35,
+      }
+    }
+  });
 }
 
 export function createCatalogSwiper() {

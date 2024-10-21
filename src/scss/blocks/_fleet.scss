@@ -9,6 +9,10 @@
     background-size: cover;
     background-repeat: no-repeat;
 
+    @include mediaBg() {
+      background-image: url('./../../img/fleet/fleet-bg@2x.jpg');
+    }
+
     height: clamp(150px, 4.911rem + 22.32vw, 400px);
 
     opacity: 0;

@@ -4,6 +4,10 @@
   background-size: contain;
   background-position: center;
 
+  @include mediaBg() {
+    background-image: url('../../img/steps/steps-bg@2x.jpg');
+  }
+
   &__container {
 		max-width: 1289px;
   }

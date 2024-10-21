@@ -1,0 +1,77 @@
+.car-features {
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+    @include tablet {
+      flex-direction: column;
+    }
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: clamp(40px, 2.357rem + 0.71vw, 48px);
+    color: #000;
+    // text-wrap: nowrap;
+
+    opacity: 0;
+		transform: translateY(40px);
+
+		transition: all 0.8s ease-in;
+		transition-delay: 0.2s;
+
+		&.active {
+			opacity: 1;
+			transform: translateY(0);
+		}
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 24px;
+    max-width: 990px;
+
+    @include tablet {
+      max-width: 100%;
+    }
+
+    @include mobile {
+      grid-template-columns: 1fr;
+    }
+
+    opacity: 0;
+		transform: translateY(40px);
+
+		transition: all 0.8s ease-in;
+		transition-delay: 0.4s;
+
+		&.active {
+			opacity: 1;
+			transform: translateY(0);
+		}
+  }
+
+  &__item {
+    background: #f8f8f8;
+
+    border-radius: 10px;
+    padding: 10px 20px;
+    // width: 480px;
+    // height: 104px;
+  }
+
+  &__item-title {
+    text-transform: uppercase;
+    color: var(--text-color);
+
+    margin-bottom: 12px;
+  }
+
+  &__item-description {
+    color: #000;
+  }
+}

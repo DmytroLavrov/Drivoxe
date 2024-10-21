@@ -74,7 +74,7 @@ function setupCatalogSwiper() {
     card.classList.add('card');
 
     card.innerHTML = `
-      <a href="#product-page" class="card__link"></a>
+      <a href="car-page.html" class="card__link"></a>
       <div class="card__photo">
         <img src="../../img/cars/car-${product.image}.jpg" alt="car-image">
       </div>

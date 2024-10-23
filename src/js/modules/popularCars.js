@@ -32,11 +32,11 @@ function createPopularCarCard(product) {
   card.innerHTML = `
     <a href="#product-page" class="popular-car-card__link"></a>
     <div class="popular-car-card__image">
-      <img src="../../img/cars/car-${product.image}.jpg" alt="car-image">
+      <img src="${product.images.main}.jpg" alt="car-image">
     </div>
     <div class="popular-car-card__content">
-      <p class="popular-car-card__name">${product.name}</p>
-      <p class="popular-car-card__price" data-value="$">${product.price}/day</p>
+      <p class="popular-car-card__name">${product.title}</p>
+      <p class="popular-car-card__price" data-value="$">$${product.price}/day</p>
     </div>
   `;
 

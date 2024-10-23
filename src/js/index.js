@@ -18,6 +18,10 @@ infoDotHoverAbout('.steps-about');
 import { setupCatalogSwiper } from './modules/cars.js';
 setupCatalogSwiper();
 
+// Render car-page
+import { renderCarPage } from './modules/car-page.js';
+renderCarPage();
+
 // Initialize the FAQ accordion
 import { faqAccordionToggle } from './modules/faq-accordion.js';
 faqAccordionToggle();

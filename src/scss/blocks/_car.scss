@@ -39,7 +39,11 @@
   }
 
   &__other-images {
-    display: flex;
+    // display: flex;
+    // gap: 27px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 27px;
   }
 

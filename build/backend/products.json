@@ -1,121 +1,252 @@
 [
   {
-    "image": "01",
-    "name": "Horizon Mirage Convertible",
-    "price": 49,
-    "orders": 10,
-    "category": "Convertible"
-  },
-  {
-    "image": "02",
-    "name": "Zephyr A4 Stratos",
-    "price": 79,
-    "orders": 120,
-    "category": "Coupe"
-  },
-  {
-    "image": "03",
-    "name": "Aurora X5 Nebula",
-    "price": 99,
-    "orders": 30,
-    "category": "SUV"
-  },
-  {
-    "image": "04",
-    "name": "Vanguard CX2 Convertible",
+    "id": "car-01",
+    "title": "Ford - Mustang Convertible",
     "price": 59,
-    "orders": 25,
-    "category": "Convertible"
+    "orders": 7,
+    "category": "Convertible",
+    "description": "Elevate your journey with the Ford Mustang Convertible, the epitome of American muscle and open-air excitement. Feel the wind in your hair as you experience the power, style, and iconic allure of this classic masterpiece. Cruise with confidence, top down.",
+    "images": {
+      "main": "./../../img/cars/Ford-Mustang-Convertible/main-image/Ford-Mustang-Convertible",
+      "other": [
+        "./../../img/cars/Ford-Mustang-Convertible/other-images/Ford-Mustang-Convertible-01",
+        "./../../img/cars/Ford-Mustang-Convertible/other-images/Ford-Mustang-Convertible-02",
+        "./../../img/cars/Ford-Mustang-Convertible/other-images/Ford-Mustang-Convertible-03"
+      ]
+    },
+    "specs": [
+      { "icon": "spec-01", "detail": "Convertible" },
+      { "icon": "spec-02", "detail": "Automatic" },
+      { "icon": "spec-03", "detail": "5.0-liter V8" },
+      { "icon": "spec-04", "detail": "4 passengers" },
+      { "icon": "spec-05", "detail": "450 HP" }
+    ],
+    "colors": ["red", "black", "gray"],
+    "features": [
+      {
+        "title": "Convertible Top",
+        "description": "Enjoy the open-air experience with an easy power-operated convertible top."
+      },
+      {
+        "title": "Sport Mode",
+        "description": "Unleash the full power of the V8 engine for an exhilarating ride."
+      },
+      {
+        "title": "Infotainment System",
+        "description": "Stay connected with a modern and flexible multimedia system."
+      },
+      {
+        "title": "Advanced Safety",
+        "description": "Benefit from modern safety features, including airbags and stability control."
+      },
+      {
+        "title": "Leather Interior",
+        "description": "Experience premium comfort with leather-trimmed seats and design."
+      },
+      {
+        "title": "Iconic Design",
+        "description": "Turn heads with the timeless, bold styling of the Ford Mustang."
+      }
+    ]
   },
   {
-    "image": "05",
-    "name": "Stellar Orion Hybrid",
-    "price": 39,
-    "orders": 15,
-    "category": "City Car"
-  },
-  {
-    "image": "06",
-    "name": "Vanguard C-Class Coupe",
-    "price": 69,
-    "orders": 20,
-    "category": "Coupe"
-  },
-  {
-    "image": "07",
-    "name": "Equinox F-Eclipse",
-    "price": 109,
-    "orders": 5,
-    "category": "Sports"
-  },
-  {
-    "image": "08",
-    "name": "Radiant Solstice Automobiles",
-    "price": 89,
-    "orders": 8,
-    "category": "Sedan"
-  },
-  {
-    "image": "09",
-    "name": "Zenith Tempest",
-    "price": 129,
-    "orders": 12,
-    "category": "Grand Tourer"
-  },
-  {
-    "image": "01",
-    "name": "Horizon Mirage Convertible",
-    "price": 49,
+    "id": "car-02",
+    "title": "Tesla - Model 3",
+    "price": 99,
     "orders": 10,
-    "category": "Convertible"
+    "category": "Sedan",
+    "description": "Elevate your journey with the Tesla Model 3, the epitome of American muscle and open-air excitement. Feel the wind in your hair as you experience the power, style, and iconic allure of this classic masterpiece. Cruise with confidence, top down.",
+    "images": {
+      "main": "./../../img/cars/Tesla-Model-3/main-image/Tesla-Model-3",
+      "other": [
+        "./../../img/cars/Tesla-Model-3/other-images/Tesla-Model-3-01",
+        "./../../img/cars/Tesla-Model-3/other-images/Tesla-Model-3-02",
+        "./../../img/cars/Tesla-Model-3/other-images/Tesla-Model-3-03"
+      ]
+    },
+    "specs": [
+      { "icon": "spec-01", "detail": "Sedan" },
+      { "icon": "spec-02", "detail": "Single-speed automatic" },
+      { "icon": "spec-03", "detail": "Electric" },
+      { "icon": "spec-04", "detail": "5 passengers" },
+      { "icon": "spec-05", "detail": "Varies by model configuration" }
+    ],
+    "colors": ["red", "black", "gray"],
+    "features": [
+      {
+        "title": "All-Electric Powertrain",
+        "description": "Enjoy instant torque and quiet operation with Tesla's electric propulsion system."
+      },
+      {
+        "title": "Premium Interior",
+        "description": "Relax in a minimalist cabin with premium materials and advanced technology, including a large touchscreen display."
+      },
+      {
+        "title": "Autopilot",
+        "description": "Experience advanced driver-assistance features, including adaptive cruise control and automatic lane-keeping."
+      },
+      {
+        "title": "Over-the-Air Updates",
+        "description": "Stay up-to-date with the latest features and improvements through remote software updates."
+      },
+      {
+        "title": "Enhanced Autopilot",
+        "description": "Upgrade to Tesla's Enhanced Autopilot for additional features like Navigate on Autopilot and Auto Lane Change."
+      },
+      {
+        "title": "Iconic Design",
+        "description": "Advanced technology seamlessly blends with modern aesthetics."
+      }
+    ]
   },
   {
-    "image": "01",
-    "name": "Horizon Mirage Convertible",
-    "price": 49,
-    "orders": 10,
-    "category": "Convertible"
+    "id": "car-03",
+    "title": "Porsche - 911 Carrera",
+    "price": 119,
+    "orders": 4,
+    "category": "Sports Car",
+    "description": "Elevate your journey with the Porsche 911 Carrera, the epitome of American muscle and open-air excitement. Feel the wind in your hair as you experience the power, style, and iconic allure of this classic masterpiece. Cruise with confidence, top down.",
+    "images": {
+      "main": "./../../img/cars/Porsche-911-Carrera/main-image/Porsche-911-Carrera",
+      "other": [
+        "./../../img/cars/Porsche-911-Carrera/other-images/Porsche-911-Carrera-01",
+        "./../../img/cars/Porsche-911-Carrera/other-images/Porsche-911-Carrera-02",
+        "./../../img/cars/Porsche-911-Carrera/other-images/Porsche-911-Carrera-03"
+      ]
+    },
+    "specs": [
+      { "icon": "spec-01", "detail": "Sports Car" },
+      { "icon": "spec-02", "detail": "Automatic" },
+      { "icon": "spec-03", "detail": "3.0-liter twin-turbocharged flat-6" },
+      { "icon": "spec-04", "detail": "2 passengers" },
+      { "icon": "spec-05", "detail": "379 HP" }
+    ],
+    "colors": ["red", "black", "gray"],
+    "features": [
+      {
+        "title": "Timeless Design",
+        "description": "Turn heads with the classic silhouette and unmistakable profile of the Porsche 911."
+      },
+      {
+        "title": "Premium Interior",
+        "description": "Immerse yourself in luxury with high-quality materials and ergonomic design throughout the cabin."
+      },
+      {
+        "title": "Performance Engineering",
+        "description": "Enjoy precise handling and exhilarating acceleration with Porsche's legendary engineering."
+      },
+      {
+        "title": "PCM",
+        "description": "Stay connected and informed with Porsche's intuitive multimedia system, featuring navigation, smartphone integration, and more."
+      },
+      {
+        "title": "Sport Chrono Package",
+        "description": "Enhance your driving experience with configurable performance settings and a dedicated Sport Chrono display."
+      },
+      {
+        "title": "Iconic Design",
+        "description": "Command the road with the iconic and timeless design of this sports car."
+      }
+    ]
   },
   {
-    "image": "01",
-    "name": "Horizon Mirage Convertible",
-    "price": 49,
-    "orders": 10,
-    "category": "Convertible"
+    "id": "car-04",
+    "title": "BMW X5 SUV",
+    "price": 79,
+    "orders": 17,
+    "category": "SUV",
+    "description": "Elevate your journey with the BMW X5 SUV, the epitome of American muscle and open-air excitement. Feel the wind in your hair as you experience the power, style, and iconic allure of this classic masterpiece. Cruise with confidence, top down.",
+    "images": {
+      "main": "./../../img/cars/BMW-X5-SUV/main-image/BMW-X5-SUV",
+      "other": [
+        "./../../img/cars/BMW-X5-SUV/other-images/BMW-X5-SUV-01",
+        "./../../img/cars/BMW-X5-SUV/other-images/BMW-X5-SUV-02",
+        "./../../img/cars/BMW-X5-SUV/other-images/BMW-X5-SUV-03"
+      ]
+    },
+    "specs": [
+      { "icon": "spec-01", "detail": "SUV" },
+      { "icon": "spec-02", "detail": "Automatic" },
+      { "icon": "spec-03", "detail": "3.0-liter turbocharged inline-6" },
+      { "icon": "spec-04", "detail": "5 passengers" },
+      { "icon": "spec-05", "detail": "335 HP" }
+    ],
+    "colors": ["red", "black", "gray"],
+    "features": [
+      {
+        "title": "Premium Interior",
+        "description": "Enjoy luxurious comfort with high-quality materials and ergonomic design."
+      },
+      {
+        "title": "Panoramic Sunroof",
+        "description": "Let natural light in and enjoy expansive views of the surroundings."
+      },
+      {
+        "title": "iDrive Infotainment System",
+        "description": "Stay connected and entertained with BMW's intuitive multimedia interface. "
+      },
+      {
+        "title": "Advanced Driver Assistance",
+        "description": "Navigate with confidence thanks to BMW's suite of safety features, including lane-keeping assist and automatic emergency braking."
+      },
+      {
+        "title": "Adaptive Suspension",
+        "description": "Experience a smooth ride with adjustable suspension settings for various driving conditions."
+      },
+      {
+        "title": "Iconic Design",
+        "description": "Experience the road with the commanding presence and refined elegance."
+      }
+    ]
   },
   {
-    "image": "01",
-    "name": "Horizon Mirage Convertible",
-    "price": 49,
-    "orders": 10,
-    "category": "Convertible"
-  },
-  {
-    "image": "01",
-    "name": "Horizon Mirage Convertible",
-    "price": 49,
-    "orders": 10,
-    "category": "Convertible"
-  },
-  {
-    "image": "01",
-    "name": "Horizon Mirage Convertible",
-    "price": 49,
-    "orders": 10,
-    "category": "Convertible"
-  },
-  {
-    "image": "01",
-    "name": "Horizon Mirage Convertible",
-    "price": 49,
-    "orders": 10,
-    "category": "Convertible"
-  },
-  {
-    "image": "01",
-    "name": "Horizon Mirage Convertible",
-    "price": 49,
-    "orders": 10,
-    "category": "Convertible"
+    "id": "car-05",
+    "title": "Audi A4 Sedan",
+    "price": 59,
+    "orders": 11,
+    "category": "Sedan",
+    "description": "Elevate your journey with the Audi A4 Sedan, the epitome of American muscle and open-air excitement. Feel the wind in your hair as you experience the power, style, and iconic allure of this classic masterpiece. Cruise with confidence, top down.",
+    "images": {
+      "main": "./../../img/cars/Audi-A4-Sedan/main-image/Audi-A4-Sedan",
+      "other": [
+        "./../../img/cars/Audi-A4-Sedan/other-images/Audi-A4-Sedan-01",
+        "./../../img/cars/Audi-A4-Sedan/other-images/Audi-A4-Sedan-02",
+        "./../../img/cars/Audi-A4-Sedan/other-images/Audi-A4-Sedan-03"
+      ]
+    },
+    "specs": [
+      { "icon": "spec-01", "detail": "SUV" },
+      { "icon": "spec-02", "detail": "Automatic" },
+      { "icon": "spec-03", "detail": "2.0-liter turbocharged inline-4" },
+      { "icon": "spec-04", "detail": "5 passengers" },
+      { "icon": "spec-05", "detail": "248 HP" }
+    ],
+    "colors": ["red", "black", "gray"],
+    "features": [
+      {
+        "title": "Comfortable Leather Seats",
+        "description": "Sink into luxurious leather seats for a comfortable ride."
+      },
+      {
+        "title": "Quattro All-Wheel Drive",
+        "description": "Enjoy enhanced traction and stability in various driving conditions."
+      },
+      {
+        "title": "Audi Virtual Cockpit",
+        "description": "Experience cutting-edge technology with Audi's advanced digital instrument cluster."
+      },
+      {
+        "title": "Advanced Driver Assistance",
+        "description": "Benefit from safety features such as adaptive cruise control and lane departure warning."
+      },
+      {
+        "title": "MMI Infotainment System",
+        "description": "Stay connected and entertained with Audi's intuitive multimedia interface."
+      },
+      {
+        "title": "Iconic Design",
+        "description": "Make a statement with the sleek, sophisticated design of the Audi A4, where luxury meets modernity."
+      }
+    ]
   }
 ]

@@ -74,12 +74,12 @@ function setupCatalogSwiper() {
     card.classList.add('card');
 
     card.innerHTML = `
-      <a href="car-page.html" class="card__link"></a>
+      <a href="car-page.html?id=${product.id}" class="card__link"></a>
       <div class="card__photo">
-        <img src="../../img/cars/car-${product.image}.jpg" alt="car-image">
+        <img src="${product.images.main}.jpg" alt="car-image">
       </div>
       <div class="card__body">
-        <h2 class="card__title title-2">${product.name}</h2>
+        <h2 class="card__title title-2">${product.title}</h2>
         <div class="card__footer">
           <div class="card__info">
             <div class="card__label">Starting at</div>
@@ -145,7 +145,7 @@ function setupCatalogSwiper() {
       }
     
       const filteredProducts = products.filter(product => 
-        product.name.toLowerCase().startsWith(searchInput)
+        product.title.toLowerCase().startsWith(searchInput)
       );
     
       renderSlides(filteredProducts);

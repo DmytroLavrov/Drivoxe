@@ -17,7 +17,7 @@ function renderCarPage() {
           <picture>
             <source srcset="${car.images.main}.webp 1x, ${car.images.main}@2x.webp 2x" type="image/webp">
             <source srcset="${car.images.main}.jpg 1x, ${car.images.main}@2x.jpg 2x" type="image/jpg">
-            <img src="${car.images.main}.jpg" alt="${car.title}">
+            <img src="${car.images.main}.jpg" alt="${car.name}">
           </picture>
         </div>
       `;
@@ -58,7 +58,7 @@ function renderCarPage() {
           </div>
           <div class="car__details anim">
             <div class="car__info">
-              <h1 class="car__title title-1">${car.title}</h1>
+              <h1 class="car__title title-1">${car.name}</h1>
               <div class="car__price">
                 <p>Starting at </p>
                 <span>$${car.price}/day</span>

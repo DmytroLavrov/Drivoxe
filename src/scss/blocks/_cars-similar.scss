@@ -51,14 +51,16 @@
       &--prev {
         z-index: 2;
         left: 0;
-        top: 50%;
+        // top: 50%;
+        top: 67.79%;
         transform: translate(0%, -50%);
       }
   
       &--next {
         z-index: 2;
         right: 0;
-        top: 50%;
+        // top: 50%;
+        top: 67.79%;
         transform: translate(0%, -50%);
       }
     }

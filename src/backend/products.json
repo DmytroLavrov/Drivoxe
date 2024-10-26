@@ -1,57 +1,7 @@
 [
   {
     "id": "car-01",
-    "title": "Ford - Mustang Convertible",
-    "price": 59,
-    "orders": 7,
-    "category": "Convertible",
-    "description": "Elevate your journey with the Ford Mustang Convertible, the epitome of American muscle and open-air excitement. Feel the wind in your hair as you experience the power, style, and iconic allure of this classic masterpiece. Cruise with confidence, top down.",
-    "images": {
-      "main": "./../../img/cars/Ford-Mustang-Convertible/main-image/Ford-Mustang-Convertible",
-      "other": [
-        "./../../img/cars/Ford-Mustang-Convertible/other-images/Ford-Mustang-Convertible-01",
-        "./../../img/cars/Ford-Mustang-Convertible/other-images/Ford-Mustang-Convertible-02",
-        "./../../img/cars/Ford-Mustang-Convertible/other-images/Ford-Mustang-Convertible-03"
-      ]
-    },
-    "specs": [
-      { "icon": "spec-01", "detail": "Convertible" },
-      { "icon": "spec-02", "detail": "Automatic" },
-      { "icon": "spec-03", "detail": "5.0-liter V8" },
-      { "icon": "spec-04", "detail": "4 passengers" },
-      { "icon": "spec-05", "detail": "450 HP" }
-    ],
-    "colors": ["red", "black", "gray"],
-    "features": [
-      {
-        "title": "Convertible Top",
-        "description": "Enjoy the open-air experience with an easy power-operated convertible top."
-      },
-      {
-        "title": "Sport Mode",
-        "description": "Unleash the full power of the V8 engine for an exhilarating ride."
-      },
-      {
-        "title": "Infotainment System",
-        "description": "Stay connected with a modern and flexible multimedia system."
-      },
-      {
-        "title": "Advanced Safety",
-        "description": "Benefit from modern safety features, including airbags and stability control."
-      },
-      {
-        "title": "Leather Interior",
-        "description": "Experience premium comfort with leather-trimmed seats and design."
-      },
-      {
-        "title": "Iconic Design",
-        "description": "Turn heads with the timeless, bold styling of the Ford Mustang."
-      }
-    ]
-  },
-  {
-    "id": "car-02",
-    "title": "Tesla - Model 3",
+    "name": "Tesla - Model 3",
     "price": 99,
     "orders": 10,
     "category": "Sedan",
@@ -100,8 +50,58 @@
     ]
   },
   {
+    "id": "car-02",
+    "name": "Ford - Mustang Convertible",
+    "price": 59,
+    "orders": 7,
+    "category": "Convertible",
+    "description": "Elevate your journey with the Ford Mustang Convertible, the epitome of American muscle and open-air excitement. Feel the wind in your hair as you experience the power, style, and iconic allure of this classic masterpiece. Cruise with confidence, top down.",
+    "images": {
+      "main": "./../../img/cars/Ford-Mustang-Convertible/main-image/Ford-Mustang-Convertible",
+      "other": [
+        "./../../img/cars/Ford-Mustang-Convertible/other-images/Ford-Mustang-Convertible-01",
+        "./../../img/cars/Ford-Mustang-Convertible/other-images/Ford-Mustang-Convertible-02",
+        "./../../img/cars/Ford-Mustang-Convertible/other-images/Ford-Mustang-Convertible-03"
+      ]
+    },
+    "specs": [
+      { "icon": "spec-01", "detail": "Convertible" },
+      { "icon": "spec-02", "detail": "Automatic" },
+      { "icon": "spec-03", "detail": "5.0-liter V8" },
+      { "icon": "spec-04", "detail": "4 passengers" },
+      { "icon": "spec-05", "detail": "450 HP" }
+    ],
+    "colors": ["red", "black", "gray"],
+    "features": [
+      {
+        "title": "Convertible Top",
+        "description": "Enjoy the open-air experience with an easy power-operated convertible top."
+      },
+      {
+        "title": "Sport Mode",
+        "description": "Unleash the full power of the V8 engine for an exhilarating ride."
+      },
+      {
+        "title": "Infotainment System",
+        "description": "Stay connected with a modern and flexible multimedia system."
+      },
+      {
+        "title": "Advanced Safety",
+        "description": "Benefit from modern safety features, including airbags and stability control."
+      },
+      {
+        "title": "Leather Interior",
+        "description": "Experience premium comfort with leather-trimmed seats and design."
+      },
+      {
+        "title": "Iconic Design",
+        "description": "Turn heads with the timeless, bold styling of the Ford Mustang."
+      }
+    ]
+  },
+  {
     "id": "car-03",
-    "title": "Porsche - 911 Carrera",
+    "name": "Porsche - 911 Carrera",
     "price": 119,
     "orders": 4,
     "category": "Sports Car",
@@ -151,7 +151,7 @@
   },
   {
     "id": "car-04",
-    "title": "BMW X5 SUV",
+    "name": "BMW X5 SUV",
     "price": 79,
     "orders": 17,
     "category": "SUV",
@@ -201,7 +201,7 @@
   },
   {
     "id": "car-05",
-    "title": "Audi A4 Sedan",
+    "name": "Audi A4 Sedan",
     "price": 59,
     "orders": 11,
     "category": "Sedan",
@@ -248,5 +248,255 @@
         "description": "Make a statement with the sleek, sophisticated design of the Audi A4, where luxury meets modernity."
       }
     ]
-  }
+  },
+  {
+    "id": "car-06",
+    "name": "Vanguard CX2 Convertible",
+    "price": 79,
+    "orders": 14,
+    "category": "Convertible",
+    "description": "Elevate your journey with the Vanguard CX2 Convertible, the epitome of American muscle and open-air excitement. Feel the wind in your hair as you experience the power, style, and iconic allure of this classic masterpiece. Cruise with confidence, top down.",
+    "images": {
+      "main": "./../../img/cars/Vanguard-CX2-Convertible/main-image/Vanguard-CX2-Convertible",
+      "other": [
+        "./../../img/cars/Vanguard-CX2-Convertible/other-images/Vanguard-CX2-Convertible-01",
+        "./../../img/cars/Vanguard-CX2-Convertible/other-images/Vanguard-CX2-Convertible-02",
+        "./../../img/cars/Vanguard-CX2-Convertible/other-images/Vanguard-CX2-Convertible-03"
+      ]
+    },
+    "specs": [
+      { "icon": "spec-01", "detail": "Convertible" },
+      { "icon": "spec-02", "detail": "Automatic" },
+      { "icon": "spec-03", "detail": "2.0-liter Turbocharged" },
+      { "icon": "spec-04", "detail": "2 passengers" },
+      { "icon": "spec-05", "detail": "300 HP" }
+    ],
+    "colors": ["red", "black", "gray"],
+    "features": [
+      {
+        "title": "Retractable Hardtop",
+        "description": "Effortlessly switch between a cozy cabin and an open-air experience with a hardtop that retracts at the push of a button."
+      },
+      {
+        "title": "Performance Mode",
+        "description": "Enhance your drive with responsive handling and increased power for thrilling performance."
+      },
+      {
+        "title": "Smart Navigation",
+        "description": "Navigate easily with an integrated system offering real-time traffic updates."
+      },
+      {
+        "title": "Premium Sound System",
+        "description": "Enjoy rich audio quality with a top-notch sound system designed for audiophiles."
+      },
+      {
+        "title": "Sporty Interior:",
+        "description": "Experience luxury with comfortable sport seats and high-quality materials."
+      },
+      {
+        "title": "Iconic Design",
+        "description": "Turn heads with the Vanguard CX2’s bold design and unique lines"
+      }
+    ]
+  },
+  {
+    "id": "car-07",
+    "name": "Range Rover - Evoque",
+    "price": 69,
+    "orders": 3,
+    "category": "SUV",
+    "description": "Discover the ultimate in luxury and performance with the Range Rover Evoque. This compact SUV combines cutting-edge design with sophisticated technology, ensuring you travel in style and comfort. Perfect for urban exploration or off-road adventures, the Evoque is the ideal companion for those who demand the best.",
+    "images": {
+      "main": "./../../img/cars/Range-Rover-Evoque/main-image/Range-Rover-Evoque",
+      "other": [
+        "./../../img/cars/Range-Rover-Evoque/other-images/Range-Rover-Evoque-01",
+        "./../../img/cars/Range-Rover-Evoque/other-images/Range-Rover-Evoque-02",
+        "./../../img/cars/Range-Rover-Evoque/other-images/Range-Rover-Evoque-03"
+      ]
+    },
+    "specs": [
+      { "icon": "spec-01", "detail": "SUV" },
+      { "icon": "spec-02", "detail": "Automatic" },
+      { "icon": "spec-03", "detail": "Varies by model configuration" },
+      { "icon": "spec-04", "detail": "5 passengers" },
+      { "icon": "spec-05", "detail": "Varies by model configuration" }
+    ],
+    "colors": ["red", "black", "gray"],
+    "features": [
+      {
+        "title": "Terrain Response System",
+        "description": "Optimize performance on any surface with the advanced Terrain Response technology."
+      },
+      {
+        "title": "Panoramic Roof",
+        "description": "Enjoy breathtaking views and a sense of openness with a full panoramic roof."
+      },
+      {
+        "title": "Intuitive Touchscreen",
+        "description": "Stay connected with a sleek, responsive touchscreen infotainment system."
+      },
+      {
+        "title": "Luxury Leather Seats",
+        "description": "Travel in comfort with premium leather upholstery and heated front seats."
+      },
+      {
+        "title": "Cutting-Edge Safety Features",
+        "description": "Drive confidently with features like emergency braking and adaptive cruise control."
+      },
+      {
+        "title": "Iconic Design",
+        "description": "Stand out with the Evoque's bold and modern styling, a true head-turner."
+      }
+    ]
+  },
+  {
+    "id": "car-08",
+    "name": "Jaguar - F-Pace",
+    "price": 85,
+    "orders": 12,
+    "category": "SUV",
+    "description": "Experience the perfect blend of performance, luxury, and practicality with the Jaguar F-Pace. This stunning SUV combines the agility of a sports car with the versatility of a spacious family vehicle, making every journey a pleasure.",
+    "images": {
+      "main": "./../../img/cars/Jaguar-F-Pace/main-image/Jaguar-F-Pace",
+      "other": [
+        "./../../img/cars/Jaguar-F-Pace/other-images/Jaguar-F-Pace-01",
+        "./../../img/cars/Jaguar-F-Pace/other-images/Jaguar-F-Pace-02",
+        "./../../img/cars/Jaguar-F-Pace/other-images/Jaguar-F-Pace-03"
+      ]
+    },
+    "specs": [
+      { "icon": "spec-01", "detail": "SUV" },
+      { "icon": "spec-02", "detail": "Automatic" },
+      { "icon": "spec-03", "detail": "Varies by model configuration" },
+      { "icon": "spec-04", "detail": "5 passengers" },
+      { "icon": "spec-05", "detail": "Varies by model configuration" }
+    ],
+    "colors": ["red", "black", "gray"],
+    "features": [
+      {
+        "title": "All-Wheel Drive",
+        "description": "Experience superior traction and stability in all weather conditions."
+      },
+      {
+        "title": "Luxurious Interior",
+        "description": "Relax in a beautifully crafted cabin featuring premium materials and sophisticated design."
+      },
+      {
+        "title": "InControl Touch Pro",
+        "description": "Stay connected with Jaguar's advanced infotainment system, featuring a responsive touchscreen and smartphone integration."
+      },
+      {
+        "title": "Adaptive Dynamics",
+        "description": "Enjoy a smooth and responsive driving experience with adjustable suspension settings."
+      },
+      {
+        "title": "Driver Assistance Features",
+        "description": "Drive with confidence thanks to features like lane departure warning and parking assist."
+      },
+      {
+        "title": "Sporty Performance",
+        "description": "Feel the thrill of driving with powerful engines and precise handling, making every drive an exhilarating experience."
+      }
+    ]
+  },
+  {
+    "id": "car-09",
+    "name": "Toyota - Camry Hybrid",
+    "price": 39,
+    "orders": 20,
+    "category": "Sedan",
+    "description": "The Toyota Camry Hybrid combines efficiency with style, offering a smooth and comfortable ride while prioritizing fuel economy. With its advanced hybrid technology, enjoy reduced emissions and exceptional fuel efficiency without sacrificing performance.",
+    "images": {
+      "main": "./../../img/cars/Toyota-Camry-Hybrid/main-image/Toyota-Camry-Hybrid",
+      "other": [
+        "./../../img/cars/Toyota-Camry-Hybrid/other-images/Toyota-Camry-Hybrid-01",
+        "./../../img/cars/Toyota-Camry-Hybrid/other-images/Toyota-Camry-Hybrid-02",
+        "./../../img/cars/Toyota-Camry-Hybrid/other-images/Toyota-Camry-Hybrid-03"
+      ]
+    },
+    "specs": [
+      { "icon": "spec-01", "detail": "Sedan" },
+      { "icon": "spec-02", "detail": "Automatic" },
+      { "icon": "spec-03", "detail": "2.5-liter 4-cylinder hybrid" },
+      { "icon": "spec-04", "detail": "5 passengers" },
+      { "icon": "spec-05", "detail": "208 HP" }
+    ],
+    "colors": ["red", "black", "gray"],
+    "features": [
+      {
+        "title": "Hybrid Efficiency",
+        "description": "Experience impressive fuel economy and reduced emissions with Toyota's advanced hybrid technology."
+      },
+      {
+        "title": "Spacious Interior",
+        "description": "Enjoy a roomy cabin with comfortable seating and ample cargo space for your convenience."
+      },
+      {
+        "title": "Toyota Safety Sense",
+        "description": "Drive confidently with a suite of safety features including pre-collision system, lane departure alert, and adaptive cruise control."
+      },
+      {
+        "title": "Infotainment System",
+        "description": "Stay connected with a user-friendly touchscreen interface, smartphone integration, and premium audio options."
+      },
+      {
+        "title": "Dynamic Handling",
+        "description": "Experience a smooth and responsive driving experience with refined handling and ride quality."
+      },
+      {
+        "title": "Stylish Design",
+        "description": "Make a statement with the sleek and modern exterior design of the Camry Hybrid."
+      }
+    ]
+  },
+  {
+    "id": "car-10",
+    "name": "Mercedes-Benz - C-Class Coupe",
+    "price": 52,
+    "orders": 8,
+    "category": "Coupe",
+    "description": "The Mercedes-Benz C-Class Coupe exudes elegance and athleticism, offering a luxurious driving experience with its sleek design and powerful performance. Enjoy the perfect balance of comfort and sportiness, making every journey a pleasure.",
+    "images": {
+      "main": "./../../img/cars/Mercedes-Benz-C-Class-Coupe/main-image/Mercedes-Benz-C-Class-Coupe",
+      "other": [
+        "./../../img/cars/Mercedes-Benz-C-Class-Coupe/other-images/Mercedes-Benz-C-Class-Coupe-01",
+        "./../../img/cars/Mercedes-Benz-C-Class-Coupe/other-images/Mercedes-Benz-C-Class-Coupe-02",
+        "./../../img/cars/Mercedes-Benz-C-Class-Coupe/other-images/Mercedes-Benz-C-Class-Coupe-03"
+      ]
+    },
+    "specs": [
+      { "icon": "spec-01", "detail": "Coupe" },
+      { "icon": "spec-02", "detail": "Automatic" },
+      { "icon": "spec-03", "detail": "2.0-liter turbocharged inline-4" },
+      { "icon": "spec-04", "detail": "4 passengers" },
+      { "icon": "spec-05", "detail": "255 HP" }
+    ],
+    "colors": ["red", "black", "gray"],
+    "features": [
+      {
+        "title": "Luxurious Interior",
+        "description": "Immerse yourself in a beautifully crafted cabin featuring premium materials and cutting-edge technology."
+      },
+      {
+        "title": "Dynamic Select",
+        "description": "Customize your driving experience with multiple driving modes that adjust performance and handling."
+      },
+      {
+        "title": "Advanced Safety Features",
+        "description": "Benefit from a comprehensive suite of safety technologies, including active brake assist and blind spot monitoring."
+      },
+      {
+        "title": "MBUX Infotainment System",
+        "description": "Stay connected with a state-of-the-art infotainment system featuring voice control and smartphone integration."
+      },
+      {
+        "title": "Sporty Performance",
+        "description": "Experience thrilling acceleration and precise handling, making every drive an exhilarating experience."
+      },
+      {
+        "title": "Striking Design",
+        "description": "Turn heads with the C-Class Coupe's sleek lines and modern aesthetic that embody sophistication."
+      }
+    ]
+  }    
 ]

@@ -67,7 +67,21 @@ function setupCatalogSwiper() {
     }
   
     catalogSwiper.update();
+
+    updateCatalogResults(1, Math.min(cardsPerSlide, productsToRender.length));
   }
+
+  function updateCatalogResults(startIndex, endIndex) {
+    const catalogResults = document.querySelector('.catalog__results p');
+    catalogResults.textContent = `Showing ${startIndex}-${endIndex} of ${products.length} results`;
+  }
+
+  catalogSwiper.on('slideChange', () => {
+    const currentSlideIndex = catalogSwiper.activeIndex;
+    const startIndex = currentSlideIndex * cardsPerSlide + 1;
+    const endIndex = Math.min(startIndex + cardsPerSlide - 1, products.length);
+    updateCatalogResults(startIndex, endIndex);
+  });
     
   function createProductCard(product) {
     const card = document.createElement('article');

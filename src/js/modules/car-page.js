@@ -17,7 +17,7 @@ function renderCarPage() {
           <picture>
             <source srcset="${car.images.main}.webp 1x, ${car.images.main}@2x.webp 2x" type="image/webp">
             <source srcset="${car.images.main}.jpg 1x, ${car.images.main}@2x.jpg 2x" type="image/jpg">
-            <img src="${car.images.main}.jpg" alt="${car.name}">
+            <img src="${car.images.main}.jpg" alt="${car.name}" data-fancybox="gallery">
           </picture>
         </div>
       `;
@@ -28,7 +28,7 @@ function renderCarPage() {
             <picture>
               <source srcset="${imgSrc}.webp 1x, ${imgSrc}@2x.webp 2x" type="image/webp">
               <source srcset="${imgSrc}.jpg 1x, ${imgSrc}@2x.jpg 2x" type="image/jpg">
-              <img class="car__other-image car__other-image--0${index + 1} anim" src="${imgSrc}.jpg" alt="other-image-${index + 1}">
+              <img class="car__other-image car__other-image--0${index + 1} anim" src="${imgSrc}.jpg" alt="other-image-${index + 1}" data-fancybox="gallery">
             </picture>
           `).join('')}
         </div>
@@ -93,7 +93,29 @@ function renderCarPage() {
         </div>
       `;
 
+      initializeQuantityControl(carSection);
+
       renderCarFeatures(car.features);
+
+      function initializeQuantityControl(container) {
+        const quantityDecreaseButton = container.querySelector('.car__quantity-decrease');
+        const quantityIncreaseButton = container.querySelector('.car__quantity-increase');
+        const quantityValueElement = container.querySelector('.car__value');
+      
+        let quantity = 1;
+      
+        quantityDecreaseButton.addEventListener('click', () => {
+          if (quantity > 1) {
+            quantity--;
+            quantityValueElement.textContent = quantity;
+          }
+        });
+      
+        quantityIncreaseButton.addEventListener('click', () => {
+          quantity++;
+          quantityValueElement.textContent = quantity;
+        });
+      }
 
       function renderCarFeatures(features) {
         const featuresHTML = features.map(feature => `
@@ -118,7 +140,6 @@ function renderCarPage() {
       }
     }
   
-    // Завантаження даних із JSON
     fetch('backend/products.json')
       .then(response => response.json())
       .then(products => {

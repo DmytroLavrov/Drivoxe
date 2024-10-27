@@ -14,6 +14,14 @@ infoDotHover('.steps');
 // Initialize the hover dots in the steps ​​section
 infoDotHoverAbout('.steps-about');
 
+// Галерея и лайтбоксы от Fancybox
+import { Fancybox } from '@fancyapps/ui';
+import '@fancyapps/ui/dist/fancybox/fancybox.css';
+
+Fancybox.bind('[data-fancybox]', {
+	// Your custom options
+});
+
 // load cars for catalog
 import { setupCatalogSwiper } from './modules/cars.js';
 setupCatalogSwiper();

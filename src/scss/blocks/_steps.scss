@@ -30,7 +30,7 @@
   &__step {
     &:nth-child(odd) {
       &::after {
-        content: url(./../../img/steps/timeline-line-small.png);
+        content: url(./../img/steps/timeline-line-small.png);
         position: absolute;
         right: 0;
         bottom: 0;
@@ -71,7 +71,7 @@
 
     &:nth-child(even) {
       &::after {
-        content: url(./../../img/steps/timeline-line-small.png);
+        content: url(./../img/steps/timeline-line-small.png);
         position: absolute;
         left: 0;
         bottom: 0;

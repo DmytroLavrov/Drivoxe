@@ -7,11 +7,11 @@
     "category": "Sedan",
     "description": "Elevate your journey with the Tesla Model 3, the epitome of American muscle and open-air excitement. Feel the wind in your hair as you experience the power, style, and iconic allure of this classic masterpiece. Cruise with confidence, top down.",
     "images": {
-      "main": "./../../img/cars/Tesla-Model-3/main-image/Tesla-Model-3",
+      "main": "./img/cars/Tesla-Model-3/main-image/Tesla-Model-3",
       "other": [
-        "./../../img/cars/Tesla-Model-3/other-images/Tesla-Model-3-01",
-        "./../../img/cars/Tesla-Model-3/other-images/Tesla-Model-3-02",
-        "./../../img/cars/Tesla-Model-3/other-images/Tesla-Model-3-03"
+        "./img/cars/Tesla-Model-3/other-images/Tesla-Model-3-01",
+        "./img/cars/Tesla-Model-3/other-images/Tesla-Model-3-02",
+        "./img/cars/Tesla-Model-3/other-images/Tesla-Model-3-03"
       ]
     },
     "specs": [
@@ -57,11 +57,11 @@
     "category": "Convertible",
     "description": "Elevate your journey with the Ford Mustang Convertible, the epitome of American muscle and open-air excitement. Feel the wind in your hair as you experience the power, style, and iconic allure of this classic masterpiece. Cruise with confidence, top down.",
     "images": {
-      "main": "./../../img/cars/Ford-Mustang-Convertible/main-image/Ford-Mustang-Convertible",
+      "main": "./img/cars/Ford-Mustang-Convertible/main-image/Ford-Mustang-Convertible",
       "other": [
-        "./../../img/cars/Ford-Mustang-Convertible/other-images/Ford-Mustang-Convertible-01",
-        "./../../img/cars/Ford-Mustang-Convertible/other-images/Ford-Mustang-Convertible-02",
-        "./../../img/cars/Ford-Mustang-Convertible/other-images/Ford-Mustang-Convertible-03"
+        "./img/cars/Ford-Mustang-Convertible/other-images/Ford-Mustang-Convertible-01",
+        "./img/cars/Ford-Mustang-Convertible/other-images/Ford-Mustang-Convertible-02",
+        "./img/cars/Ford-Mustang-Convertible/other-images/Ford-Mustang-Convertible-03"
       ]
     },
     "specs": [
@@ -107,11 +107,11 @@
     "category": "Sports Car",
     "description": "Elevate your journey with the Porsche 911 Carrera, the epitome of American muscle and open-air excitement. Feel the wind in your hair as you experience the power, style, and iconic allure of this classic masterpiece. Cruise with confidence, top down.",
     "images": {
-      "main": "./../../img/cars/Porsche-911-Carrera/main-image/Porsche-911-Carrera",
+      "main": "./img/cars/Porsche-911-Carrera/main-image/Porsche-911-Carrera",
       "other": [
-        "./../../img/cars/Porsche-911-Carrera/other-images/Porsche-911-Carrera-01",
-        "./../../img/cars/Porsche-911-Carrera/other-images/Porsche-911-Carrera-02",
-        "./../../img/cars/Porsche-911-Carrera/other-images/Porsche-911-Carrera-03"
+        "./img/cars/Porsche-911-Carrera/other-images/Porsche-911-Carrera-01",
+        "./img/cars/Porsche-911-Carrera/other-images/Porsche-911-Carrera-02",
+        "./img/cars/Porsche-911-Carrera/other-images/Porsche-911-Carrera-03"
       ]
     },
     "specs": [
@@ -157,11 +157,11 @@
     "category": "SUV",
     "description": "Elevate your journey with the BMW X5 SUV, the epitome of American muscle and open-air excitement. Feel the wind in your hair as you experience the power, style, and iconic allure of this classic masterpiece. Cruise with confidence, top down.",
     "images": {
-      "main": "./../../img/cars/BMW-X5-SUV/main-image/BMW-X5-SUV",
+      "main": "./img/cars/BMW-X5-SUV/main-image/BMW-X5-SUV",
       "other": [
-        "./../../img/cars/BMW-X5-SUV/other-images/BMW-X5-SUV-01",
-        "./../../img/cars/BMW-X5-SUV/other-images/BMW-X5-SUV-02",
-        "./../../img/cars/BMW-X5-SUV/other-images/BMW-X5-SUV-03"
+        "./img/cars/BMW-X5-SUV/other-images/BMW-X5-SUV-01",
+        "./img/cars/BMW-X5-SUV/other-images/BMW-X5-SUV-02",
+        "./img/cars/BMW-X5-SUV/other-images/BMW-X5-SUV-03"
       ]
     },
     "specs": [
@@ -207,11 +207,11 @@
     "category": "Sedan",
     "description": "Elevate your journey with the Audi A4 Sedan, the epitome of American muscle and open-air excitement. Feel the wind in your hair as you experience the power, style, and iconic allure of this classic masterpiece. Cruise with confidence, top down.",
     "images": {
-      "main": "./../../img/cars/Audi-A4-Sedan/main-image/Audi-A4-Sedan",
+      "main": "./img/cars/Audi-A4-Sedan/main-image/Audi-A4-Sedan",
       "other": [
-        "./../../img/cars/Audi-A4-Sedan/other-images/Audi-A4-Sedan-01",
-        "./../../img/cars/Audi-A4-Sedan/other-images/Audi-A4-Sedan-02",
-        "./../../img/cars/Audi-A4-Sedan/other-images/Audi-A4-Sedan-03"
+        "./img/cars/Audi-A4-Sedan/other-images/Audi-A4-Sedan-01",
+        "./img/cars/Audi-A4-Sedan/other-images/Audi-A4-Sedan-02",
+        "./img/cars/Audi-A4-Sedan/other-images/Audi-A4-Sedan-03"
       ]
     },
     "specs": [
@@ -257,11 +257,11 @@
     "category": "Convertible",
     "description": "Elevate your journey with the Vanguard CX2 Convertible, the epitome of American muscle and open-air excitement. Feel the wind in your hair as you experience the power, style, and iconic allure of this classic masterpiece. Cruise with confidence, top down.",
     "images": {
-      "main": "./../../img/cars/Vanguard-CX2-Convertible/main-image/Vanguard-CX2-Convertible",
+      "main": "./img/cars/Vanguard-CX2-Convertible/main-image/Vanguard-CX2-Convertible",
       "other": [
-        "./../../img/cars/Vanguard-CX2-Convertible/other-images/Vanguard-CX2-Convertible-01",
-        "./../../img/cars/Vanguard-CX2-Convertible/other-images/Vanguard-CX2-Convertible-02",
-        "./../../img/cars/Vanguard-CX2-Convertible/other-images/Vanguard-CX2-Convertible-03"
+        "./img/cars/Vanguard-CX2-Convertible/other-images/Vanguard-CX2-Convertible-01",
+        "./img/cars/Vanguard-CX2-Convertible/other-images/Vanguard-CX2-Convertible-02",
+        "./img/cars/Vanguard-CX2-Convertible/other-images/Vanguard-CX2-Convertible-03"
       ]
     },
     "specs": [
@@ -307,11 +307,11 @@
     "category": "SUV",
     "description": "Discover the ultimate in luxury and performance with the Range Rover Evoque. This compact SUV combines cutting-edge design with sophisticated technology, ensuring you travel in style and comfort. Perfect for urban exploration or off-road adventures, the Evoque is the ideal companion for those who demand the best.",
     "images": {
-      "main": "./../../img/cars/Range-Rover-Evoque/main-image/Range-Rover-Evoque",
+      "main": "./img/cars/Range-Rover-Evoque/main-image/Range-Rover-Evoque",
       "other": [
-        "./../../img/cars/Range-Rover-Evoque/other-images/Range-Rover-Evoque-01",
-        "./../../img/cars/Range-Rover-Evoque/other-images/Range-Rover-Evoque-02",
-        "./../../img/cars/Range-Rover-Evoque/other-images/Range-Rover-Evoque-03"
+        "./img/cars/Range-Rover-Evoque/other-images/Range-Rover-Evoque-01",
+        "./img/cars/Range-Rover-Evoque/other-images/Range-Rover-Evoque-02",
+        "./img/cars/Range-Rover-Evoque/other-images/Range-Rover-Evoque-03"
       ]
     },
     "specs": [
@@ -357,11 +357,11 @@
     "category": "SUV",
     "description": "Experience the perfect blend of performance, luxury, and practicality with the Jaguar F-Pace. This stunning SUV combines the agility of a sports car with the versatility of a spacious family vehicle, making every journey a pleasure.",
     "images": {
-      "main": "./../../img/cars/Jaguar-F-Pace/main-image/Jaguar-F-Pace",
+      "main": "./img/cars/Jaguar-F-Pace/main-image/Jaguar-F-Pace",
       "other": [
-        "./../../img/cars/Jaguar-F-Pace/other-images/Jaguar-F-Pace-01",
-        "./../../img/cars/Jaguar-F-Pace/other-images/Jaguar-F-Pace-02",
-        "./../../img/cars/Jaguar-F-Pace/other-images/Jaguar-F-Pace-03"
+        "./img/cars/Jaguar-F-Pace/other-images/Jaguar-F-Pace-01",
+        "./img/cars/Jaguar-F-Pace/other-images/Jaguar-F-Pace-02",
+        "./img/cars/Jaguar-F-Pace/other-images/Jaguar-F-Pace-03"
       ]
     },
     "specs": [
@@ -407,11 +407,11 @@
     "category": "Sedan",
     "description": "The Toyota Camry Hybrid combines efficiency with style, offering a smooth and comfortable ride while prioritizing fuel economy. With its advanced hybrid technology, enjoy reduced emissions and exceptional fuel efficiency without sacrificing performance.",
     "images": {
-      "main": "./../../img/cars/Toyota-Camry-Hybrid/main-image/Toyota-Camry-Hybrid",
+      "main": "./img/cars/Toyota-Camry-Hybrid/main-image/Toyota-Camry-Hybrid",
       "other": [
-        "./../../img/cars/Toyota-Camry-Hybrid/other-images/Toyota-Camry-Hybrid-01",
-        "./../../img/cars/Toyota-Camry-Hybrid/other-images/Toyota-Camry-Hybrid-02",
-        "./../../img/cars/Toyota-Camry-Hybrid/other-images/Toyota-Camry-Hybrid-03"
+        "./img/cars/Toyota-Camry-Hybrid/other-images/Toyota-Camry-Hybrid-01",
+        "./img/cars/Toyota-Camry-Hybrid/other-images/Toyota-Camry-Hybrid-02",
+        "./img/cars/Toyota-Camry-Hybrid/other-images/Toyota-Camry-Hybrid-03"
       ]
     },
     "specs": [
@@ -457,11 +457,11 @@
     "category": "Coupe",
     "description": "The Mercedes-Benz C-Class Coupe exudes elegance and athleticism, offering a luxurious driving experience with its sleek design and powerful performance. Enjoy the perfect balance of comfort and sportiness, making every journey a pleasure.",
     "images": {
-      "main": "./../../img/cars/Mercedes-Benz-C-Class-Coupe/main-image/Mercedes-Benz-C-Class-Coupe",
+      "main": "./img/cars/Mercedes-Benz-C-Class-Coupe/main-image/Mercedes-Benz-C-Class-Coupe",
       "other": [
-        "./../../img/cars/Mercedes-Benz-C-Class-Coupe/other-images/Mercedes-Benz-C-Class-Coupe-01",
-        "./../../img/cars/Mercedes-Benz-C-Class-Coupe/other-images/Mercedes-Benz-C-Class-Coupe-02",
-        "./../../img/cars/Mercedes-Benz-C-Class-Coupe/other-images/Mercedes-Benz-C-Class-Coupe-03"
+        "./img/cars/Mercedes-Benz-C-Class-Coupe/other-images/Mercedes-Benz-C-Class-Coupe-01",
+        "./img/cars/Mercedes-Benz-C-Class-Coupe/other-images/Mercedes-Benz-C-Class-Coupe-02",
+        "./img/cars/Mercedes-Benz-C-Class-Coupe/other-images/Mercedes-Benz-C-Class-Coupe-03"
       ]
     },
     "specs": [

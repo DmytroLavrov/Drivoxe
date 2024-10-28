@@ -5,7 +5,7 @@
 		margin-bottom: clamp(62px, 3.696rem + 0.89vw, 72px);
 
 		@include tablet {
-			display: none;
+			// display: none;
 		}
 	}
 }

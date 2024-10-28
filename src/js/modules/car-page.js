@@ -68,11 +68,11 @@ function renderCarPage() {
             <div class="car__actions">
               <div class="car__quantity">
                 <button class="car__quantity-decrease">
-                  <img src="./../../img/car-page/minus.png" alt="minus">
+                  <img src="./img/car-page/minus.png" alt="minus">
                 </button>
                 <div class="car__value">1</div>
                 <button class="car__quantity-increase">
-                  <img src="./../../img/car-page/plus.png" alt="plus">
+                  <img src="./img/car-page/plus.png" alt="plus">
                 </button>
               </div>
               <button class="car__book-btn button-primary">Book Now</button>

@@ -1,10 +1,8 @@
 // Swiper
-import swiper from './modules/swiper.js';
-swiper();
+import('./modules/swiper.js').then(({ default: swiper }) => swiper());
 
 // Info-dot
-import { infoDot, infoDotHoverAbout } from './modules/info-dot.js';
-import { infoDotHover } from './modules/info-dot.js';
+import { infoDot, infoDotHoverAbout, infoDotHover } from './modules/info-dot.js';
 // Initialize dots in the hero section
 infoDot('.hero');
 // Initialize dots in the values section
@@ -23,8 +21,7 @@ Fancybox.bind('[data-fancybox]', {
 });
 
 // load cars for catalog
-import { setupCatalogSwiper } from './modules/cars.js';
-setupCatalogSwiper();
+import('./modules/cars.js').then(({ setupCatalogSwiper }) => setupCatalogSwiper());
 
 // Render car-page
 import { renderCarPage } from './modules/car-page.js';

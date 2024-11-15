@@ -29,9 +29,6 @@ function setupCatalogSwiper() {
 
   function renderSlides(productsToRender) {
     const slidesContainer = document.getElementById('swiper-wrapper');
-    if (!slidesContainer) {
-      return;
-    }
   
     slidesContainer.innerHTML = '';
   

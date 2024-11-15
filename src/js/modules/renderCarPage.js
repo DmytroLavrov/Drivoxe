@@ -1,9 +1,6 @@
 import scrollAnimation from "../utils/scrollAnimation";
 
 function renderCarPage() {
-  if (!window.location.pathname.includes('car-page')) {
-    return;
-  }
 
   document.addEventListener('DOMContentLoaded', () => {
     const carSection = document.querySelector('.car');

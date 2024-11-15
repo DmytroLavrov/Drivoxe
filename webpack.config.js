@@ -1,9 +1,11 @@
 const config = {
 	mode: 'production',
 	entry: {
-		index: './src/js/index.js'
-		// contacts: './src/js/contacts.js',
-		// about: './src/js/about.js',
+		index: './src/js/index.js',
+		aboutUs: './src/js/aboutUs.js',
+		cars: './src/js/cars.js',
+		carPage: './src/js/carPage.js',
+		faq: './src/js/faq.js',
 	},
 	output: {
 		filename: '[name].bundle.js',

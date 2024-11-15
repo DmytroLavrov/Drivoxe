@@ -10,10 +10,6 @@ function loadPopularCars() {
 function renderPopularCars(products) {
   const popularCarsList = document.querySelector('.popular-cars__list');
 
-  if (!popularCarsList) {
-    return;
-  }
-
   const sortedProducts = products.sort((a, b) => b.orders - a.orders);
   const topProducts = sortedProducts.slice(0, 4);
 
